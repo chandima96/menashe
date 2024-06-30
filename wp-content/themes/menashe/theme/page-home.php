@@ -32,7 +32,7 @@
     </style>
 
 <div>
-    <div class="grid grid-cols-1 md:grid-cols-3 m-3 md:m-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 m-3 md:mt-6 md:ml-6 md:mr-6">
         <div class="col-span-1 order-2 md:order-1 pr-0 md:pr-7">
             <div class="flex flex-col  justify-center">
                 <div class="flex justify-center w-full">
