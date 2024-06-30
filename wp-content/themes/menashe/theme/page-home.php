@@ -29,11 +29,11 @@
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
                 </div>
-                <h1 class="text-center font-bold text-5xl"><?php get_field('home_title'); ?></h1>
+                <h1 class="text-center font-bold text-5xl"><?php echo get_field('home_title'); ?></h1>
 
                 <div class="text-center mx-3">
                     <div class="bg-gradient-to-r from-[#c8a950] from-47% via-[#c6bda4] via-6% to-[#c8a950] to-53% h-20 w-full flex items-center justify-center">
-                        <p class="text-white font-extrabold text-5xl leading-[48px]"><?php get_field('gold_box_text'); ?></p>
+                        <p class="text-white font-extrabold text-5xl leading-[48px]"><?php echo get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold text-2xl">
@@ -41,15 +41,15 @@
                     </div>
                 </div>
                 <div class="text-[#c8a950] h-8 w-full text-center flex justify-center">
-                    <p class="font-bold text-3xl"><?php get_field('gold_text_one'); ?></p>
-                    <p class="font-bold text-6xl"><?php get_field('gold_text_two'); ?> </p>
-                    <p class="text-3xl font-semibold"><?php get_field('gold_text_three'); ?></p>
+                    <p class="font-bold text-3xl"><?php echo get_field('gold_text_one'); ?></p>
+                    <p class="font-bold text-6xl"><?php echo get_field('gold_text_two'); ?> </p>
+                    <p class="text-3xl font-semibold"><?php echo get_field('gold_text_three'); ?></p>
                 </div>
                 <div class="text-[#276658] h-8 w-full font-bold text-2xl text-center">
-                <?php get_field('green_text'); ?>
+                <?php echo get_field('green_text'); ?>
                 </div>
                 <div class="text-black h-8 w-full text-center">
-                <span><?php get_field('paragraph'); ?></span>
+                <span><?php echo get_field('paragraph'); ?></span>
                 </div>
 
             </div>
@@ -76,7 +76,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 bg-[#276658]">
             <div class="col-span-1 p-3 md:p-6">
                 <div class="w-full  p-3 grid gap-2">
-                    <h2 class="w-full text-center text-white"><?php get_field('contact_title'); ?></h2>
+                    <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
                     <!-- <div class="grid grid-cols-2 gap-2">
                         <div>
@@ -97,8 +97,8 @@
                         <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
                     </div> -->
                     <div class="text-center">
-                        <p class="text-white"><?php get_field('bottom_paragaph'); ?></p>
-                        <p class="text-white"><?php get_field('bottom_paragaph_two'); ?></p>
+                        <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
+                        <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
                     </div>
                 </div>
         </div>
