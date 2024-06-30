@@ -23,8 +23,8 @@
     </style>
 
 <div>
-    <div class="grid grid-cols-3">
-        <div class="col-span-1">
+    <div class="grid grid-cols-3 m-6">
+        <div class="col-span-1 pr-7">
             <div class="flex flex-col  justify-center gap-y-6">
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
@@ -32,7 +32,7 @@
                 <h1 class="text-center font-bold text-5xl">הטבות של פעם באלפי</h1>
 
                 <div class="text-center mx-3">
-                    <div class="bg-[#c8a950] h-20 w-full flex items-center justify-center">
+                    <div class="bg-gradient-to-r from-[#c8a950] from-47% via-[#c6bda4] via-6% to-[#c8a950] to-53% h-20 w-full flex items-center justify-center">
                         <p class="text-white font-extrabold text-5xl leading-[48px]">פטור ממדד +</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
@@ -57,6 +57,7 @@
 
 
         <div class="col-span-2 relative">
+            <div class="absolute inset-0 w-full h-full">
             <div class="carousel-container w-full mx-auto absolute inset-0 bg-white bg-opacity-80 pointer-events-none" id="carousel">
                 <div class="carousel-images">
                     <img src="https://via.placeholder.com/600x400" alt="Image 1" class="carousel-image">
@@ -66,13 +67,14 @@
                 <button class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="prevBtn">‹</button>
                 <button class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="nextBtn">›</button>
             </div>
+            </div>
 
         </div>
 
 
     </div>
     <div class="grid grid-cols-3 bg-[#276658]">
-            <div class="col-span-1">
+            <div class="col-span-1  p-6">
                         <form class="w-full  p-3 grid gap-2">
                     <h2 class="w-full text-center text-white">test</h2>
                     <div class="grid grid-cols-2 gap-2">
@@ -103,7 +105,6 @@
 
         </div>
     </div>
-
 </div>
 <script>
     let currentIndex = 0;
