@@ -86,8 +86,8 @@
             <div class="col-span-1 p-3 md:p-6">
                 <div class="w-full  p-3 grid gap-2">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
-                    <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
-                        <div class="grid grid-cols-2 gap-2">
+                    <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
+                        <!-- <div class="grid grid-cols-2 gap-2">
                             <div>
                                 <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
                             </div>
@@ -104,7 +104,7 @@
                         <div dir="rtl">
                             <input type="checkbox">
                             <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
-                        </div>
+                        </div> -->
                     <div class="text-center">
                         <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
