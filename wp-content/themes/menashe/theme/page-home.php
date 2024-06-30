@@ -20,6 +20,15 @@
             min-width: 100%;
             box-sizing: border-box;
         }
+        .bg-submit {
+            background: linear-gradient(
+                to right,
+                #c8a950 47%,
+                #ccbe99 47%,
+                #ccbe99 53%,
+                #c8a950 53%
+            );
+            }
     </style>
 
 <div>
@@ -32,7 +41,7 @@
                 <h1 class="text-center font-bold text-5xl"><?php echo get_field('home_title'); ?></h1>
 
                 <div class="text-center mx-3 mt-6">
-                    <div class="bg-gradient-to-r from-[#c8a950] from-47% via-[#c6bda4] via-6% to-[#c8a950] to-53% h-20 w-full flex items-center justify-center">
+                    <div class="bg-gradient-to-r from-gold from-47% via-gold-m via-6% to-gold to-53% h-20 w-full flex items-center justify-center">
                         <p class="text-white font-extrabold text-5xl leading-[48px]"><?php echo get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
@@ -45,10 +54,10 @@
                     <p class="font-bold text-6xl"><?php echo get_field('gold_text_two'); ?> </p>
                     <p class="text-3xl font-semibold"><?php echo get_field('gold_text_three'); ?></p>
                 </div>
-                <div class="text-[#276658] h-8 w-full font-bold text-2xl text-center mt-6">
+                <div class="text-[#276658] w-full font-bold text-2xl text-center mt-6">
                 <?php echo get_field('green_text'); ?>
                 </div>
-                <div class="text-black h-8 w-full text-center my-6">
+                <div class="text-black w-full text-center my-6">
                 <span><?php echo get_field('paragraph'); ?></span>
                 </div>
 
@@ -78,24 +87,24 @@
                 <div class="w-full  p-3 grid gap-2">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
-                    <div class="grid grid-cols-2 gap-2">
-                        <div>
-                            <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>
+                                <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
+                            </div>
+                            <div>
+                                <input type="name" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="שם מלא">
+                            </div>
                         </div>
                         <div>
-                            <input type="name" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="שם מלא">
+                            <input type="email" class="w-full h-10 placeholder-black p-3 mt-2" dir="rtl" placeholder="אימייל">
                         </div>
-                    </div>
-                    <div>
-                        <input type="email" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="אימייל">
-                    </div>
-                    <div>
-                        <button id="submit" type="submit" class="w-full bg-[#c8a950] h-10 text-black">שליחה</button>
-                    </div>
-                    <div dir="rtl">
-                        <input type="checkbox">
-                        <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
-                    </div>
+                        <div>
+                            <button id="submit" type="submit" class="w-full bg-submit h-10 text-black  mt-2">שליחה</button>
+                        </div>
+                        <div dir="rtl">
+                            <input type="checkbox">
+                            <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
+                        </div>
                     <div class="text-center">
                         <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
