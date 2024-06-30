@@ -10,22 +10,13 @@
  * @package menashe
  */
 
-?><!doctype html>
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta <?php bloginfo( 'charset' ); ?>>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 	<?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
-
 <?php wp_body_open(); ?>
-
-<div id="page">
-	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'menashe' ); ?></a>
-
-	<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
-
-	<div id="content">
