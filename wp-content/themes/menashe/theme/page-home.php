@@ -23,8 +23,8 @@
     </style>
 
 <div>
-    <div class="grid grid-cols-3 m-6">
-        <div class="col-span-1 pr-7">
+    <div class="grid grid-cols-1 md:grid-cols-3 m-6">
+        <div class="col-span-1 order-2 md:order-1 pr-7">
             <div class="flex flex-col  justify-center gap-y-6">
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
@@ -56,8 +56,8 @@
         </div>
 
 
-        <div class="col-span-2 relative">
-            <div class="absolute inset-0 w-full h-full">
+        <div class="order-1 md:order-2 col-span-2 relative">
+            <div class="md:absolute md:inset-0 w-full h-full">
             <div class="carousel-container w-full mx-auto absolute inset-0 bg-white bg-opacity-80 pointer-events-none" id="carousel">
                 <div class="carousel-images">
                     <img src="https://via.placeholder.com/600x400" alt="Image 1" class="carousel-image">
@@ -73,8 +73,8 @@
 
 
     </div>
-    <div class="grid grid-cols-3 bg-[#276658]">
-            <div class="col-span-1  p-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 bg-[#276658]">
+            <div class="col-span-1 p-6">
                 <div class="w-full  p-3 grid gap-2">
                     <h2 class="w-full text-center text-white">test</h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
