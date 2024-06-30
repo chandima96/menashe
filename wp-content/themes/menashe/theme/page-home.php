@@ -60,9 +60,9 @@
             <div class="md:absolute md:inset-0 w-full h-full">
             <div class="carousel-container w-full mx-auto absolute inset-0 bg-white bg-opacity-80 pointer-events-none" id="carousel">
                 <div class="carousel-images">
-                    <img src="https://via.placeholder.com/600x400" alt="Image 1" class="carousel-image">
-                    <img src="https://via.placeholder.com/600x400" alt="Image 2" class="carousel-image">
-                    <img src="https://via.placeholder.com/600x400" alt="Image 3" class="carousel-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 2" class="carousel-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 3" class="carousel-image">
                 </div>
                 <button class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="prevBtn">‹</button>
                 <button class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="nextBtn">›</button>
