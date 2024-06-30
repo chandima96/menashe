@@ -1326,6 +1326,10 @@ body {
   margin: 1.5rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -1484,6 +1488,10 @@ body {
   padding-right: 1.75rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1604,7 +1612,23 @@ body {
     order: 1;
   }
 
+  .md\:m-6 {
+    margin: 1.5rem;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:pr-7 {
+    padding-right: 1.75rem;
   }
 }

@@ -23,33 +23,33 @@
     </style>
 
 <div>
-    <div class="grid grid-cols-1 md:grid-cols-3 m-6">
-        <div class="col-span-1 order-2 md:order-1 pr-7">
+    <div class="grid grid-cols-1 md:grid-cols-3 m-3 md:m-6">
+        <div class="col-span-1 order-2 md:order-1 pr-0 md:pr-7">
             <div class="flex flex-col  justify-center gap-y-6">
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
                 </div>
-                <h1 class="text-center font-bold text-5xl">הטבות של פעם באלפי</h1>
+                <h1 class="text-center font-bold text-5xl"><?php get_field('home_title'); ?></h1>
 
                 <div class="text-center mx-3">
                     <div class="bg-gradient-to-r from-[#c8a950] from-47% via-[#c6bda4] via-6% to-[#c8a950] to-53% h-20 w-full flex items-center justify-center">
-                        <p class="text-white font-extrabold text-5xl leading-[48px]">פטור ממדד +</p>
+                        <p class="text-white font-extrabold text-5xl leading-[48px]"><?php get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold text-2xl">
-                    ל- 5 דירות בלבד
+                        <?php get_field('black_box_text'); ?>
                     </div>
                 </div>
                 <div class="text-[#c8a950] h-8 w-full text-center flex justify-center">
-                    <p class="font-bold text-3xl">₪</p>
-                    <p class="font-bold text-6xl">2.25M - </p>
-                    <p class="text-3xl font-semibold">החל מ</p>
+                    <p class="font-bold text-3xl"><?php get_field('gold_text_one'); ?></p>
+                    <p class="font-bold text-6xl"><?php get_field('gold_text_two'); ?> </p>
+                    <p class="text-3xl font-semibold"><?php get_field('gold_text_three'); ?></p>
                 </div>
                 <div class="text-[#276658] h-8 w-full font-bold text-2xl text-center">
-                דירות 4-6 חד',  גן ופנט' באלפי מנשה
+                <?php get_field('green_text'); ?>
                 </div>
                 <div class="text-black h-8 w-full text-center">
-                <span>בואו להרגיש את הטבע ולקום בבוקר לנוף מרהיב ועוצר נשימה של רכס ה</span>
+                <span><?php get_field('paragraph'); ?></span>
                 </div>
 
             </div>
@@ -74,9 +74,9 @@
 
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 bg-[#276658]">
-            <div class="col-span-1 p-6">
+            <div class="col-span-1 p-3 md:p-6">
                 <div class="w-full  p-3 grid gap-2">
-                    <h2 class="w-full text-center text-white">test</h2>
+                    <h2 class="w-full text-center text-white"><?php get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
                     <!-- <div class="grid grid-cols-2 gap-2">
                         <div>
@@ -97,8 +97,8 @@
                         <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
                     </div> -->
                     <div class="text-center">
-                        <p class="text-white">מילוי פרטיך ולחיצה על כפתור ״שלחו״ מהווה הסכמה מנציג מכירות מטע</p>
-                        <p class="text-white">* החברה רשאית להפסיק את ההטבה בכל עת. טל״ח</p>
+                        <p class="text-white"><?php get_field('bottom_paragaph'); ?></p>
+                        <p class="text-white"><?php get_field('bottom_paragaph_two'); ?></p>
                     </div>
                 </div>
         </div>
@@ -107,6 +107,11 @@
         </div>
     </div>
 </div>
+
+<div class="md:hidden block w-full">
+    
+</div>
+
 <script>
     let currentIndex = 0;
 const images = document.querySelectorAll('.carousel-image');
