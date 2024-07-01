@@ -80,6 +80,10 @@ border-radius: 0;
 display: none;
 }
 
+.carousel-image{
+    height: calc(100vh* 0.5);
+}
+
 }
 #contact{
 margin-top: 4px !important;
@@ -186,7 +190,7 @@ display:none;
                     <div class="absolute block lg:hidden left-0 top-0 bg-white shadow-lg">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" class="p-2 w-full h-24" alt="">
                     </div>
-                    <div class="absolute left-0 bottom-0 bg-white shadow-lg">
+                    <div class="absolute left-0 bottom-0 text-white shadow-lg">
                         <p>* הדמיות להמחשה בלבד</p>
                     </div>
                 </div>
