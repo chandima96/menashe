@@ -1294,6 +1294,14 @@ body {
   right: 1rem;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .order-1 {
   order: 1;
 }
@@ -1312,6 +1320,10 @@ body {
 
 .m-3 {
   margin: 0.75rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
 }
 
 .mx-3 {
@@ -1605,6 +1617,14 @@ body {
 
   .lg\:inset-0 {
     inset: 0px;
+  }
+
+  .lg\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .lg\:right-4 {
+    right: 1rem;
   }
 
   .lg\:order-1 {
