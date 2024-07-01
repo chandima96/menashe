@@ -38,6 +38,7 @@
 }
 input::placeholder {
     text-align: right;
+    font-weight: 600;
 }
 .submit-button {
 display: flex;
@@ -88,8 +89,8 @@ color:white;
 }
 
 #checkbox-524 input[type="checkbox"]{
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     accent-color: #276658; /* For modern browsers */
     border-color: white;
     border-style: solid;
@@ -107,6 +108,7 @@ display:none;
 #checkbox-524 label{
     direction: rtl;
     display: flex;
+    gap:6px;
 }
 </style>
 
