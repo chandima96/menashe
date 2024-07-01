@@ -41,6 +41,9 @@
                 #c8a950 53%
             );
             }
+            input::placeholder {
+                text-align: right;
+            }
     </style>
 
 <div>
