@@ -1413,6 +1413,10 @@ body {
   width: 0.25rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .max-w-none {
   max-width: none;
 }
@@ -1459,6 +1463,10 @@ body {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
