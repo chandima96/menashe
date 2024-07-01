@@ -41,7 +41,7 @@
         }
     </style>
 
-<div class="mb-[72px]">
+<div class="mb-[72px] lg:mb-0">
     <div class="grid grid-cols-1 lg:grid-cols-3 m-3 lg:mt-6 lg:ml-6 lg:mr-6">
         <div class="col-span-1 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col  justify-center">
@@ -123,8 +123,8 @@
                             <input type="email" class="w-full h-10 placeholder-black p-3 mt-2" dir="rtl" placeholder="אימייל">
                         </div>
                         <div class="flex gap-3 lg:block">
-                            <div class="">
-                                <button id="submit" type="submit" class="lg:w-full w-32 rounded-full bg-submit flex gap-1 items-center justify-center h-10 text-black mt-2">
+                            <div class="mb-2">
+                                <button id="submit" type="submit" class="lg:w-full w-32 rounded-full lg:rounded-none bg-submit flex gap-1 items-center justify-center h-10 text-black mt-2">
                                     <div>                                
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
@@ -135,14 +135,14 @@
                                 </button>
                             </div>
                             <div class="">
-                                <div class="flex">
+                                <div class="flex justify-end">
                                     <div><label dir="rtl" class="text-white text-right">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
                                     <div><input type="checkbox"></div>
                                 </div>
                             </div>
                         </div>
                     <div class="text-center font-heebo">
-                        <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
+                        <p class="text-white mb-2"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
                     </div>
                 </div>
