@@ -90,10 +90,9 @@ color:white;
 #checkbox-524 input[type="checkbox"]{
     width: 20px;
     height: 20px;
-    accent-color: teal; /* For modern browsers */
+    accent-color: #276658; /* For modern browsers */
     border-color: white;
     border-style: solid;
-    background-color: #276658;
 }
 
 #email{
