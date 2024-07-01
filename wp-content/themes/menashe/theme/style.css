@@ -1409,6 +1409,18 @@ body {
   height: 100%;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-2\.5 {
+  height: 0.625rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -1425,6 +1437,14 @@ body {
   width: 8rem;
 }
 
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-2\.5 {
+  width: 0.625rem;
+}
+
 .max-w-none {
   max-width: none;
 }
@@ -1439,6 +1459,12 @@ body {
 
 .resize {
   resize: both;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-1 {
@@ -1656,6 +1682,11 @@ body {
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+.checked\:bg-blue-500:checked {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
 
 .prose-a\:text-primary :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
