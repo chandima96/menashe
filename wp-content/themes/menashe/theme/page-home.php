@@ -122,7 +122,7 @@
                         <div>
                             <input type="email" class="w-full h-10 placeholder-black p-3 mt-2" dir="rtl" placeholder="אימייל">
                         </div>
-                        <div class="flex">
+                        <div class="flex gap-3 lg:block">
                             <div class="">
                                 <button id="submit" type="submit" class="w-full bg-submit h-10 text-black mt-2">שליחה</button>
                             </div>
