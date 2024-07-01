@@ -131,12 +131,12 @@
                                             <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
                                         </svg>
                                     </div>
-                                    <div>שליחה</div>
+                                    <div class="text-2xl font-bold">שליחה</div>
                                 </button>
                             </div>
                             <div class="">
                                 <div class="flex">
-                                    <div><label class="text-white text-right">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
+                                    <div><label dir="rtl" class="text-white text-right">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
                                     <div><input type="checkbox"></div>
                                 </div>
                             </div>
