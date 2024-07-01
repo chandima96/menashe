@@ -117,7 +117,7 @@ display:none;
                     </div>
                     <div class="text-[#c8a950] w-full text-center flex justify-center">
                         <p class="font-bold text-2xl md:text-3xl mt-auto font-heebo"><?php echo get_field('gold_text_one'); ?></p>
-                        <p class="font-bold text-5xl md:text-6xl font-heebo"><?php echo get_field('gold_text_two'); ?> </p>
+                        <p class="font-bold text-4xl md:text-5xl font-heebo"><?php echo get_field('gold_text_two'); ?> </p>
                         <p class="text-3xl font-semibold my-auto font-heebo"><?php echo get_field('gold_text_three'); ?></p>
                     </div>
                     <div class="text-[#276658] w-full font-bold text-2xl text-center font-heebo">
