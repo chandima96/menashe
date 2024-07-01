@@ -55,7 +55,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold text-2xl">
-                        <?php get_field('black_box_text'); ?>
+                        <?php echo get_field('black_box_text'); ?>
                     </div>
                 </div>
                 <div class="text-[#c8a950] w-full text-center flex justify-center mt-6">
