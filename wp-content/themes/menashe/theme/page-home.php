@@ -128,6 +128,11 @@ color:white;
     border-style: solid;
     background-color: #276658;
 }
+@media (max-width: 1024px) {
+    #checkbox-524 input[type="checkbox"]{
+        width: 56px;
+}
+}
 .checkmark {
   position: absolute;
   top: 0;
