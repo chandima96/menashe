@@ -39,6 +39,41 @@
         input::placeholder {
             text-align: right;
         }
+        .submit-button {
+    display: flex;
+    gap: 0.25rem; /* 1 in 4 units (default unit size) */
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem; /* 10 in 4 units (default unit size) */
+    width: 8rem; /* 32 in 4 units (default unit size) */
+    width: 100%; /* 100% width for large screens */
+    border-radius: 9999px; /* full rounded corners */
+    border-radius: 0; /* no rounding for large screens */
+    background-color: var(--color-submit);
+    color: #000000; /* black */
+    margin-top: 0.5rem; /* 2 in 4 units (default unit size) */
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/><path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button-text {
+    font-size: 1.5rem; /* 2xl */
+    font-weight: 700; /* bold */
+}
+
+/* Large screen styles */
+@media (min-width: 1024px) {
+    .submit-button {
+        width: 100%;
+        border-radius: 0;
+    }
+}
     </style>
 
 <div class="mb-[72px] lg:mb-0">
@@ -124,7 +159,7 @@
                         </div>
                         <div class="flex gap-3 lg:block">
                             <div class="mb-2">
-                                <button id="submit" type="submit" class="lg:w-full w-32 rounded-full lg:rounded-none bg-submit flex gap-1 items-center justify-center h-10 text-black mt-2">
+                                <!-- <button id="submit" type="submit" class="lg:w-full w-32 rounded-full lg:rounded-none bg-submit flex gap-1 items-center justify-center h-10 text-black mt-2">
                                     <div>                                
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
@@ -132,6 +167,10 @@
                                         </svg>
                                     </div>
                                     <div class="text-2xl font-bold">שליחה</div>
+                                </button> -->
+                                <button id="submit" type="submit" class="submit-button">
+                                    <span class="button-icon"></span>
+                                    <span class="button-text">שליחה</span>
                                 </button>
                             </div>
                             <div class="">
