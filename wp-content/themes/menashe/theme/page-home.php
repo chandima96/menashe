@@ -111,7 +111,7 @@
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
-                        <div class="grid grid-cols-2 gap-2">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
                             <div>
                                 <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
                             </div>
