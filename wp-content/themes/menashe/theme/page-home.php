@@ -88,8 +88,24 @@ margin-top: 4px !important;
 color:white;
 }
 
-
-
+#checkbox-524 input[type="checkbox"]{
+    width: 28px;
+    height: 28px;
+    accent-color: #276658; /* For modern browsers */
+    border-color: white;
+    border-style: solid;
+    background-color: #276658;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  border-color: white;
+  border-style: solid;
+  background-color: #276658;;
+}
 #email{
 margin-top: 8px;
 }
@@ -99,55 +115,12 @@ margin-top: 8px;
 display:none;
 }
 
-#checkbox-524 {
-            align-items: center;
-            direction: rtl;
+#checkbox-524 label{
+    direction: rtl;
     display: flex;
     gap:6px;
-        }
+}
 
-        #checkbox-524 input[type="checkbox"] {
-            width: 28px;
-            height: 28px;
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-        }
-
-        #checkbox-524 .custom-checkbox {
-            width: 28px;
-            height: 28px;
-            background-color: #276658;
-            border: 2px solid white;
-            border-radius: 4px;
-            display: inline-block;
-            position: relative;
-        }
-
-        #checkbox-524 input[type="checkbox"]:checked + .custom-checkbox {
-            background-color: #276658; /* Checked background color */
-        }
-
-        #checkbox-524 .custom-checkbox::after {
-            content: "";
-            position: absolute;
-            display: none;
-            left: 9px;
-            top: 5px;
-            width: 5px;
-            height: 10px;
-            border: solid white;
-            border-width: 0 3px 3px 0;
-            transform: rotate(45deg);
-        }
-
-        #checkbox-524 input[type="checkbox"]:checked + .custom-checkbox::after {
-            display: block;
-        }
-
-        #checkbox-524 label {
-            margin-left: 35px; /* Adjust this value to position the label correctly */
-        }
 </style>
 
 <div class="mb-[72px] lg:mb-0">
