@@ -38,7 +38,7 @@
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
                 </div>
-                <h1 class="text-center font-bold text-5xl"><?php echo get_field('home_title'); ?></h1>
+                <h1 class="text-center font-bold text-5xl font-heebo"><?php echo get_field('home_title'); ?></h1>
 
                 <div class="text-center mx-3 mt-6">
                     <div class="bg-gradient-to-r from-gold from-47% via-gold-m via-6% to-gold to-53% h-20 w-full flex items-center justify-center">

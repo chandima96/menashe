@@ -11,6 +11,9 @@ module.exports = {
 		'./theme/**/*.php',
 	],
 	theme: {
+		fontFamily: {
+            'heebo': ['"Heebo", sans-serif'],
+        },
 		// Extend the default Tailwind theme.
 		extend: {
 			colors: {
