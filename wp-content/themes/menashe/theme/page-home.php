@@ -152,8 +152,8 @@
             <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white font-bold text-2xl font-heebo "><?php echo get_field('contact_title'); ?></h2>
-                    <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
+                        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div>
                                 <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
                             </div>
@@ -166,17 +166,7 @@
                         </div>
                         <div class="flex gap-3 lg:block">
                             <div class="mb-2">
-                                <!-- <button id="submit" type="submit" class="lg:w-full w-32 rounded-full lg:rounded-none bg-submit flex gap-1 items-center justify-center h-10 text-black mt-2">
-                                    <div>                                
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                                            <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                                        </svg>
-                                    </div>
-                                    <div class="text-2xl font-bold">שליחה</div>
-                                </button> -->
                                 <button id="submit" type="submit" class="submit-button bg-submit lg:w-full w-32 rounded-full lg:rounded-none">שליחה</button>
-
                             </div>
                             <div class="">
                                 <div class="flex justify-end gap-2">
@@ -184,7 +174,7 @@
                                     <div><input class="appearance-none h-7 w-7 bg-[#276658] border-2 border-white checked:bg-white" type="checkbox"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     <div class="text-center font-heebo">
                         <p class="text-white mb-2"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
