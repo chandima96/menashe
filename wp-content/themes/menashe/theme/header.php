@@ -20,3 +20,9 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+.Karantina {
+  font-family: 'Karantina', cursive;
+}
+</style>
