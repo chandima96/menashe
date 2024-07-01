@@ -51,8 +51,8 @@
 
                 <div class="text-center mx-3 mt-6">
                     <div class="bg-submit h-20 w-full flex items-center justify-center">
-                        <p class="text-white font-extrabold md:text-5xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
+                        <p class="text-white font-extrabold text-3xl md:text-5xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold md:text-2xl">
                         <?php echo get_field('black_box_text'); ?>
