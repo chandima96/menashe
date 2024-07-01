@@ -93,7 +93,7 @@
                         </svg>
                     </button>
                     <div class="absolute bottom-4 right-4 bg-white rounded-lg shadow-lg">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png m-2" alt="">
+                        test
                     </div>
                 </div>
             </div>
