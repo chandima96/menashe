@@ -1341,12 +1341,21 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .block {
@@ -1439,11 +1448,6 @@ body {
   background-color: rgb(39 102 88 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#c8a950\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(200 169 80 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1468,18 +1472,9 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-\[\#c6bda4\] {
-  --tw-gradient-to: rgb(198 189 164 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #c6bda4 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
 .via-gold-m {
   --tw-gradient-to: rgb(204 190 153 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #ccbe99 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.to-\[\#c8a950\] {
-  --tw-gradient-to: #c8a950 var(--tw-gradient-to-position);
 }
 
 .to-gold {
@@ -1500,6 +1495,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.font-heebo {
+  font-family: "Heebo", sans-serif;
 }
 
 .text-2xl {
@@ -1618,20 +1617,16 @@ body {
     order: 2;
   }
 
-  .md\:m-6 {
-    margin: 1.5rem;
-  }
-
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .md\:ml-6 {
     margin-left: 1.5rem;
   }
 
   .md\:mr-6 {
     margin-right: 1.5rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:hidden {

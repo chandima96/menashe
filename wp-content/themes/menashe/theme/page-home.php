@@ -50,9 +50,9 @@
                     </div>
                 </div>
                 <div class="text-[#c8a950] w-full text-center flex justify-center mt-6">
-                    <p class="font-bold text-3xl"><?php echo get_field('gold_text_one'); ?></p>
+                    <p class="font-bold text-3xl mt-auto"><?php echo get_field('gold_text_one'); ?></p>
                     <p class="font-bold text-6xl"><?php echo get_field('gold_text_two'); ?> </p>
-                    <p class="text-3xl font-semibold"><?php echo get_field('gold_text_three'); ?></p>
+                    <p class="text-3xl font-semibold my-auto"><?php echo get_field('gold_text_three'); ?></p>
                 </div>
                 <div class="text-[#276658] w-full font-bold text-2xl text-center mt-6">
                 <?php echo get_field('green_text'); ?>

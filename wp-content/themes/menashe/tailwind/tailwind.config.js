@@ -11,14 +11,15 @@ module.exports = {
 		'./theme/**/*.php',
 	],
 	theme: {
-		fontFamily: {
-            'heebo': ['"Heebo", sans-serif'],
-        },
+
 		// Extend the default Tailwind theme.
 		extend: {
 			colors: {
 				'gold': '#c8a950',
 				'gold-m': '#ccbe99',
+			},
+			fontFamily: {
+				'heebo': ['"Heebo", sans-serif'],
 			},
 		},
 	},
