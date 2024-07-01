@@ -138,7 +138,7 @@ display:none;
                             <p class="text-white font-extrabold text-3xl md:text-4xl leading-[48px] Heebo"><?php echo get_field('gold_box_text'); ?></p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto w-20" alt="">
                         </div>
-                        <div class="bg-black text-white h-8 w-full font-bold Heebo md:text-2xl">
+                        <div class="bg-black text-white lg:h-8 h-6 w-full font-bold Heebo md:text-2xl">
                             <?php echo get_field('black_box_text'); ?>
                         </div>
                     </div>
