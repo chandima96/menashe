@@ -33,7 +33,7 @@
             right: 10px;
         }
         .bg-submit {
-            background-image: radial-gradient(#ccbe99, #c8a950, #c8a950);
+            background-image: radial-gradient(circle, #ccbe99, #c8a950, #c8a950);
         }
         input::placeholder {
             text-align: right;
