@@ -122,11 +122,11 @@
                         <div>
                             <input type="email" class="w-full h-10 placeholder-black p-3 mt-2" dir="rtl" placeholder="אימייל">
                         </div>
-                        <div class="gird grid-cols-3 lg:grid-cols-1">
-                            <div class="col-span-1">
-                                <button id="submit" type="submit" class="lg:w-full bg-submit h-10 text-black mt-2">שליחה</button>
+                        <div class="flex">
+                            <div class="">
+                                <button id="submit" type="submit" class="w-full bg-submit h-10 text-black mt-2">שליחה</button>
                             </div>
-                            <div class="col-span-2">
+                            <div class="">
                                 <div class="flex">
                                     <div><label class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
                                     <div><input type="checkbox"></div>
