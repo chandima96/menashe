@@ -135,9 +135,9 @@
                                 </button>
                             </div>
                             <div class="">
-                                <div class="flex justify-end">
+                                <div class="flex justify-end gap-2">
                                     <div><label dir="rtl" class="text-white text-right">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
-                                    <div><input class="appearance-none h-7 w-7 bg-[#276658] border-2 border-black checked:bg-blue-500"" type="checkbox"></div>
+                                    <div><input class="appearance-none h-7 w-7 bg-[#276658] border-2 border-white checked:bg-white" type="checkbox"></div>
                                 </div>
                             </div>
                         </div>

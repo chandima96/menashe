@@ -1528,6 +1528,11 @@ body {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#276658\] {
   --tw-bg-opacity: 1;
   background-color: rgb(39 102 88 / var(--tw-bg-opacity));
@@ -1690,6 +1695,11 @@ body {
 .checked\:bg-blue-500:checked {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.checked\:bg-white:checked {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .prose-a\:text-primary :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
