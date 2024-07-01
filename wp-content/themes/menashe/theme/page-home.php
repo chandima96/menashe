@@ -104,8 +104,9 @@ margin-top: 8px;
 display:none;
 }
 
-label{
+#checkbox-524 label{
     direction: rtl;
+    display: flex;
 }
 </style>
 
