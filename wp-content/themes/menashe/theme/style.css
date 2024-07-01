@@ -1598,6 +1598,10 @@ body {
   font-weight: 600;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .leading-\[48px\] {
   line-height: 48px;
 }
