@@ -20,6 +20,7 @@ module.exports = {
 			},
 			fontFamily: {
 				'heebo': ['"Heebo", sans-serif'],
+				'karantina': ['"Karantina", system-ui'],
 			},
 		},
 	},
