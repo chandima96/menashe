@@ -1445,6 +1445,10 @@ body {
   width: 0.625rem;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .max-w-none {
   max-width: none;
 }

@@ -64,7 +64,7 @@
                     <p class="font-bold text-5xl md:text-6xl font-heebo"><?php echo get_field('gold_text_two'); ?> </p>
                     <p class="text-3xl font-semibold my-auto font-heebo"><?php echo get_field('gold_text_three'); ?></p>
                 </div>
-                <div class="text-[#276658] w-full font-bold md:text-2xl text-center mt-6 font-heebo">
+                <div class="text-[#276658] w-full font-bold text-2xl text-center mt-6 font-heebo">
                 <?php echo get_field('green_text'); ?>
                 </div>
                 <div class="text-black w-full text-center my-6 font-heebo">
@@ -109,7 +109,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 bg-[#276658]">
             <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
-                    <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
+                    <h2 class="w-full text-center text-white font-bold text-2xl font-heebo "><?php echo get_field('contact_title'); ?></h2>
                     <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div>
