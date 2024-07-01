@@ -87,12 +87,16 @@ margin-top: 4px !important;
 color:white;
 }
 #email{
-margin-top: 16px;
+margin-top: 8px;
 }
 
 
 .wpcf7-spinner{
 display:none;
+}
+
+label{
+    direction: rtl;
 }
 </style>
 
