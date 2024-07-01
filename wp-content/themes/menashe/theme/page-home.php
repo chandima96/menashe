@@ -99,7 +99,7 @@ display:none;
 <div class="mb-[72px] lg:mb-0">
     <div class="grid grid-cols-1 lg:grid-cols-10 m-3 lg:mt-4 lg:ml-4 lg:mr-4">
         <div class="col-span-3 order-2 lg:order-1 pr-0 lg:pr-7">
-            <div class="flex flex-col  justify-center">
+            <div class="flex flex-col justify-center">
                 <div class="grid gap-2">
                     <div class="flex justify-center w-full">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
@@ -124,6 +124,7 @@ display:none;
                     <?php echo get_field('green_text'); ?>
                     </div>
                 </div>
+
                 <div class="text-black w-full text-center text-lg font-heebo">
                 <span><?php echo get_field('paragraph'); ?></span>
                 </div>
