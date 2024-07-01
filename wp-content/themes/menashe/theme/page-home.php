@@ -224,7 +224,7 @@ display:none;
                     <div class="carousel-indicators" id="carouselIndicators"></div>
                 </div>
             </div>
-            <div class="lg:hidden block relative top-6 text-black">
+            <div class="lg:hidden block relative bottom-6 text-black">
                 <p>* הדמיות להמחשה בלבד</p>
             </div>
 

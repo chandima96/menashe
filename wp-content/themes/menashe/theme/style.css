@@ -1310,6 +1310,10 @@ body {
   top: 1.5rem;
 }
 
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
 .order-1 {
   order: 1;
 }
