@@ -145,7 +145,7 @@
     </div>
 </div>
 
-<div class="lg:hidden block w-full">
+<div class="lg:hidden block w-full fixed bottom-0">
     <div class="grid grid-cols-2 gap-3 m-3">
         <div>
             <button class="flex justify-center items-center border-2 border-black bg-[#2ed02e] w-full text-white p-1">
