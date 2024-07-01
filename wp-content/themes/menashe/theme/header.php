@@ -26,6 +26,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+.Assistant {
+  font-family: "Assistant", sans-serif;
+}
+.Rubik {
+  font-family: "Rubik", sans-serif;
+}
 .Heebo {
   font-family: "Heebo", sans-serif;
 }
