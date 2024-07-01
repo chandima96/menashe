@@ -41,8 +41,8 @@
     </style>
 
 <div>
-    <div class="grid grid-cols-1 md:grid-cols-3 m-3 md:mt-6 md:ml-6 md:mr-6">
-        <div class="col-span-1 order-2 md:order-1 pr-0 md:pr-7">
+    <div class="grid grid-cols-1 lg:grid-cols-3 m-3 lg:mt-6 lg:ml-6 lg:mr-6">
+        <div class="col-span-1 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col  justify-center">
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
@@ -74,8 +74,8 @@
         </div>
 
 
-        <div class="order-1 md:order-2 col-span-2 relative">
-            <div class="md:absolute md:inset-0 w-full h-full">
+        <div class="order-1 lg:order-2 col-span-2 relative">
+            <div class="lg:absolute lg:inset-0 w-full h-full">
                 <div class="carousel-container" id="carousel">
                     <div class="carousel-images" id="carouselImages">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
@@ -99,8 +99,8 @@
 
 
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 bg-[#276658]">
-            <div class="col-span-1 p-3 md:p-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 bg-[#276658]">
+            <div class="col-span-1 p-3 lg:p-6">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
@@ -134,7 +134,7 @@
     </div>
 </div>
 
-<div class="md:hidden block w-full">
+<div class="lg:hidden block w-full">
     
 </div>
 
