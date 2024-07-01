@@ -1341,6 +1341,14 @@ body {
   margin-bottom: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1351,22 +1359,6 @@ body {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[72px\] {
-  margin-bottom: 72px;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -1397,6 +1389,10 @@ body {
   height: 6rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -1409,44 +1405,20 @@ body {
   height: 100%;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-2\.5 {
-  height: 0.625rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
 .w-28 {
   width: 7rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-2\.5 {
-  width: 0.625rem;
-}
-
 .w-7 {
   width: 1.75rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-none {
@@ -1479,10 +1451,6 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1507,12 +1475,12 @@ body {
   gap: 0.75rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -1558,6 +1526,10 @@ body {
      object-fit: cover;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1566,20 +1538,16 @@ body {
   padding: 0.75rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
 
 .pr-0 {
   padding-right: 0px;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-center {
@@ -1592,10 +1560,6 @@ body {
 
 .font-heebo {
   font-family: "Heebo", sans-serif;
-}
-
-.font-karantina {
-  font-family: "Karantina", system-ui;
 }
 
 .text-2xl {
@@ -1692,11 +1656,6 @@ body {
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
 
-.checked\:bg-blue-500:checked {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .checked\:bg-white:checked {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1751,6 +1710,10 @@ body {
     order: 2;
   }
 
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .lg\:ml-6 {
     margin-left: 1.5rem;
   }
@@ -1761,10 +1724,6 @@ body {
 
   .lg\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .lg\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .lg\:block {
@@ -1779,16 +1738,12 @@ body {
     width: 100%;
   }
 
-  .lg\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:rounded-none {
