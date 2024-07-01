@@ -90,35 +90,9 @@
     margin-top: 16px;
 }
 
-#checkbox-524 {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    height: 1.75rem; /* 7 in 4 units (default unit size) */
-    width: 1.75rem; /* 7 in 4 units (default unit size) */
-    background-color: #276658;
-    border: 2px solid #ffffff;
-    cursor: pointer; /* Add a pointer cursor for better UX */
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-}
 
-#checkbox-524:checked {
-    background-color: #ffffff;
-}
-
-/* Optional: Style the checkbox with a custom checkmark when checked */
-#checkbox-524:checked::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0.5rem;
-    height: 1rem;
-    border: solid #276658;
-    border-width: 0 2px 2px 0;
-    transform: translate(-50%, -50%) rotate(45deg);
+.wpcf7-spinner{
+    display:none;
 }
     </style>
 
