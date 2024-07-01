@@ -135,7 +135,7 @@
 </div>
 
 <div class="lg:hidden block w-full">
-    <div class="grid grid-cols-2 w-full gap-3 m-3">
+    <div class="grid grid-cols-2 gap-3 m-3">
         <div>
             <button class="flex justify-center items-center border-2 border-black bg-[#2ed02e] w-full text-white p-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
