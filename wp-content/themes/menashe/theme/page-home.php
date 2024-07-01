@@ -103,11 +103,11 @@ display:none;
                 <div class="flex justify-center w-full">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
                 </div>
-                <h1 class="text-center font-bold text-4xl md:text-5xl font-heebo"><?php echo get_field('home_title'); ?></h1>
+                <h1 class="text-center font-bold text-4xl md:text-3xl font-heebo"><?php echo get_field('home_title'); ?></h1>
 
                 <div class="text-center mx-3 mt-4">
                     <div class="bg-submit h-20 w-full flex items-center justify-center">
-                        <p class="text-white font-extrabold text-4xl md:text-5xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
+                        <p class="text-white font-extrabold text-4xl md:text-3xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold font-heebo md:text-2xl">
