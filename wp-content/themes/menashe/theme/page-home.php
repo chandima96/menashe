@@ -125,7 +125,7 @@ display:none;
                     </div>
                 </div>
 
-                <div class="text-black w-full text-center text-lg font-heebo">
+                <div class="text-black w-full text-center text-lg font-heebo mt-3">
                 <span><?php echo get_field('paragraph'); ?></span>
                 </div>
 
