@@ -1310,6 +1310,14 @@ body {
   right: 0px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .order-1 {
   order: 1;
 }
@@ -1641,6 +1649,14 @@ body {
 
   .lg\:right-4 {
     right: 1rem;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
   }
 
   .lg\:order-1 {
