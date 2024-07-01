@@ -168,7 +168,7 @@
                                     </div>
                                     <div class="text-2xl font-bold">שליחה</div>
                                 </button> -->
-                                <button id="submit" type="submit" class="submit-button">
+                                <button id="submit" type="submit" class="submit-button bg-submit">
                                     <span class="button-icon"></span>
                                     <span class="button-text">שליחה</span>
                                 </button>
