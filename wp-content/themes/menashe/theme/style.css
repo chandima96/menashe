@@ -1286,32 +1286,16 @@ body {
   position: relative;
 }
 
-.bottom-4 {
-  bottom: 1rem;
-}
-
-.right-4 {
-  right: 1rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .left-0 {
   left: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .top-0 {
@@ -1336,10 +1320,6 @@ body {
 
 .m-3 {
   margin: 0.75rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
 }
 
 .mx-3 {
@@ -1393,6 +1373,10 @@ body {
   height: 5rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -1405,24 +1389,12 @@ body {
   height: 100%;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
 .w-28 {
   width: 7rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .max-w-none {
@@ -1469,10 +1441,6 @@ body {
   gap: 0.75rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -1502,20 +1470,16 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .pl-3 {
@@ -1538,29 +1502,9 @@ body {
   font-family: "Karantina", system-ui;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1642,6 +1586,33 @@ body {
   color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
@@ -1649,22 +1620,6 @@ body {
 
   .lg\:inset-0 {
     inset: 0px;
-  }
-
-  .lg\:bottom-4 {
-    bottom: 1rem;
-  }
-
-  .lg\:right-4 {
-    right: 1rem;
-  }
-
-  .lg\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
   }
 
   .lg\:order-1 {
@@ -1699,31 +1654,23 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:p-6 {
-    padding: 1.5rem;
-  }
-
-  .lg\:pr-7 {
-    padding-right: 1.75rem;
-  }
-
   .lg\:pb-6 {
     padding-bottom: 1.5rem;
-  }
-
-  .lg\:pt-6 {
-    padding-top: 1.5rem;
   }
 
   .lg\:pl-6 {
     padding-left: 1.5rem;
   }
 
-  .lg\:pt-3 {
-    padding-top: 0.75rem;
-  }
-
   .lg\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .lg\:pr-7 {
+    padding-right: 1.75rem;
+  }
+
+  .lg\:pt-3 {
+    padding-top: 0.75rem;
   }
 }
