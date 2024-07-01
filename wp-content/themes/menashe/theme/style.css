@@ -1409,12 +1409,20 @@ body {
   height: 3.5rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .w-28 {
   width: 7rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-none {
@@ -1697,5 +1705,25 @@ body {
 
   .lg\:pr-7 {
     padding-right: 1.75rem;
+  }
+
+  .lg\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:pt-6 {
+    padding-top: 1.5rem;
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .lg\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .lg\:pr-6 {
+    padding-right: 1.5rem;
   }
 }

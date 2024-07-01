@@ -93,10 +93,10 @@
                         </svg>
                     </button>
                     <div class="absolute hidden lg:block bottom-0 right-0 bg-white shadow-lg">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" class="p-2 w-full h-14" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" class="p-2 w-full h-24" alt="">
                     </div>
                     <div class="absolute block lg:hidden left-0 top-0 bg-white shadow-lg">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" class="p-2 w-full h-14" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" class="p-2 w-full h-24" alt="">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
 
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 bg-[#276658]">
-            <div class="col-span-1 p-3 lg:p-6">
+            <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
