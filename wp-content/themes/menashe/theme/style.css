@@ -1353,6 +1353,14 @@ body {
   margin-top: auto;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
+}
+
 .block {
   display: block;
 }
@@ -1399,6 +1407,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-none {

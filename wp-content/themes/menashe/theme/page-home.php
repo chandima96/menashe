@@ -41,7 +41,7 @@
         }
     </style>
 
-<div>
+<div class="mb-[72px]">
     <div class="grid grid-cols-1 lg:grid-cols-3 m-3 lg:mt-6 lg:ml-6 lg:mr-6">
         <div class="col-span-1 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col  justify-center">
@@ -145,7 +145,7 @@
     </div>
 </div>
 
-<div class="lg:hidden block w-full fixed bottom-0">
+<div class="lg:hidden block w-full fixed bottom-0 bg-white">
     <div class="grid grid-cols-2 gap-3 m-3">
         <div>
             <button class="flex justify-center items-center border-2 border-black bg-[#2ed02e] w-full text-white p-1">
