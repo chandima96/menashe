@@ -83,6 +83,10 @@
 #contact{
     margin-top: 4px !important;
 }
+#checkbox-524{
+    color:white;
+    
+}
     </style>
 
 <div class="mb-[72px] lg:mb-0">
