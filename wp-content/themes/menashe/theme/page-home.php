@@ -110,8 +110,8 @@
             <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white font-bold text-2xl font-heebo "><?php echo get_field('contact_title'); ?></h2>
-                    <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
-                        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div>
                                 <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
                             </div>
@@ -140,7 +140,7 @@
                                     <div><input class="appearance-none h-7 w-7 bg-[#276658] border-2 border-white checked:bg-white" type="checkbox"></div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     <div class="text-center font-heebo">
                         <p class="text-white mb-2"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
