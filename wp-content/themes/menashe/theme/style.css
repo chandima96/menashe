@@ -1393,6 +1393,14 @@ body {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-28 {
   width: 7rem;
 }

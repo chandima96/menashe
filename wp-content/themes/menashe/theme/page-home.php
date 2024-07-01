@@ -75,7 +75,7 @@
 
 
         <div class="order-1 lg:order-2 col-span-2 relative">
-            <div class="lg:absolute lg:inset-0 w-full h-full">
+            <div class="lg:absolute lg:inset-0 w-full h-[600px]">
                 <div class="carousel-container" id="carousel">
                     <div class="carousel-images" id="carouselImages">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
@@ -125,7 +125,7 @@
                             <div class="col-span-1">
                                 <button id="submit" type="submit" class="lg:w-full bg-submit h-10 text-black mt-2">שליחה</button>
                             </div>
-                            <div class="col-span-2" dir="rtl">
+                            <div class="col-span-2">
                                 <div class="flex">
                                     <div><label class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
                                     <div><input type="checkbox"></div>
