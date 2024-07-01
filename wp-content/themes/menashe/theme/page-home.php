@@ -143,7 +143,7 @@ display:none;
                         </div>
                     </div>
                     <div class="text-[#c8a950] w-full text-center flex lg:flex-row flex-col justify-center">
-                        <div class="flex order-2 lg:order-1">
+                        <div class="flex order-2 lg:order-1 justify-center">
                             <p class="font-medium text-2xl md:text-3xl mt-auto Heebo"><?php echo get_field('gold_text_one'); ?></p>
                             <p class="font-bold text-4xl md:text-5xl Heebo"><?php echo get_field('gold_text_two'); ?> </p>
                         </div>
