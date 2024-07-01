@@ -161,8 +161,8 @@ display:none;
 
 
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 bg-[#276658]">
-            <div class="col-span-1 pb-3 pr-3 pl-3 lg:pb-4 lg:pr-4 lg:pl-4 lg:pt-3">
+    <div class="grid grid-cols-1 lg:grid-cols-10 bg-[#276658]">
+            <div class="col-span-3 pb-3 pr-3 pl-3 lg:pb-4 lg:pr-4 lg:pl-4 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white font-bold text-2xl font-heebo "><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
@@ -194,7 +194,7 @@ display:none;
                     </div>
                 </div>
         </div>
-        <div class="col-span-2 relative" id="target">
+        <div class="col-span-7 relative" id="target">
 
         </div>
     </div>
