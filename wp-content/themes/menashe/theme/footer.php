@@ -31,6 +31,7 @@
         </div>
     </div>
 </div>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/custom.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
