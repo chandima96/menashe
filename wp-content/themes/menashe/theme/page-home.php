@@ -97,7 +97,7 @@ display:none;
 </style>
 
 <div class="mb-[72px] lg:mb-0">
-    <div class="grid grid-cols-1 lg:grid-cols-9 m-3 lg:mt-4 lg:ml-4 lg:mr-4">
+    <div class="grid grid-cols-1 lg:grid-cols-10 m-3 lg:mt-4 lg:ml-4 lg:mr-4">
         <div class="col-span-3 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col  justify-center">
                 <div class="flex justify-center w-full">
@@ -130,7 +130,7 @@ display:none;
         </div>
 
 
-        <div class="order-1 lg:order-2 col-span-6 relative">
+        <div class="order-1 lg:order-2 col-span-7 relative">
             <div class="lg:absolute lg:inset-0 w-full h-full">
                 <div class="carousel-container" id="carousel">
                     <div class="carousel-images" id="carouselImages">
