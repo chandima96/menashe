@@ -8,17 +8,33 @@
 <style>
         .carousel-container {
             position: relative;
+            width: 100%;
+            height: 400px;
             overflow: hidden;
         }
-
         .carousel-images {
             display: flex;
-            transition: transform 0.5s ease-in-out;
+            transition: transform 0.5s ease;
         }
-
         .carousel-image {
-            min-width: 100%;
-            box-sizing: border-box;
+            width: 100%;
+            flex-shrink: 0;
+        }
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            padding: 10px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+        }
+        .carousel-button.prev {
+            left: 10px;
+        }
+        .carousel-button.next {
+            right: 10px;
         }
         .bg-submit {
             background: linear-gradient(
@@ -50,14 +66,14 @@
                     </div>
                 </div>
                 <div class="text-[#c8a950] w-full text-center flex justify-center mt-6">
-                    <p class="font-bold text-3xl mt-auto"><?php echo get_field('gold_text_one'); ?></p>
-                    <p class="font-bold text-6xl"><?php echo get_field('gold_text_two'); ?> </p>
-                    <p class="text-3xl font-semibold my-auto"><?php echo get_field('gold_text_three'); ?></p>
+                    <p class="font-bold text-3xl mt-auto font-heebo"><?php echo get_field('gold_text_one'); ?></p>
+                    <p class="font-bold text-6xl font-heebo"><?php echo get_field('gold_text_two'); ?> </p>
+                    <p class="text-3xl font-semibold my-auto font-heebo"><?php echo get_field('gold_text_three'); ?></p>
                 </div>
-                <div class="text-[#276658] w-full font-bold text-2xl text-center mt-6">
+                <div class="text-[#276658] w-full font-bold text-2xl text-center mt-6 font-heebo">
                 <?php echo get_field('green_text'); ?>
                 </div>
-                <div class="text-black w-full text-center my-6">
+                <div class="text-black w-full text-center my-6 font-heebo">
                 <span><?php echo get_field('paragraph'); ?></span>
                 </div>
 
@@ -67,15 +83,15 @@
 
         <div class="order-1 md:order-2 col-span-2 relative">
             <div class="md:absolute md:inset-0 w-full h-full">
-            <div class="carousel-container w-full mx-auto absolute inset-0 bg-white bg-opacity-80 pointer-events-none" id="carousel">
-                <div class="carousel-images">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 2" class="carousel-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 3" class="carousel-image">
+                <div class="carousel-container w-full mx-auto absolute inset-0 bg-white bg-opacity-80 pointer-events-none" id="carousel">
+                    <div class="carousel-images" id="carouselImages">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 2" class="carousel-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 3" class="carousel-image">
+                    </div>
+                    <button class="carousel-button prev" id="prevBtn">‹</button>
+                    <button class="carousel-button next" id="nextBtn">›</button>
                 </div>
-                <button class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="prevBtn">‹</button>
-                <button class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md" id="nextBtn">›</button>
-            </div>
             </div>
 
         </div>
@@ -84,7 +100,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 bg-[#276658]">
             <div class="col-span-1 p-3 md:p-6">
-                <div class="w-full  p-3 grid gap-2">
+                <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
                         <!-- <div class="grid grid-cols-2 gap-2">
@@ -105,7 +121,7 @@
                             <input type="checkbox">
                             <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
                         </div> -->
-                    <div class="text-center">
+                    <div class="text-center font-heebo">
                         <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
                     </div>
@@ -122,27 +138,36 @@
 </div>
 
 <script>
-    let currentIndex = 0;
-const images = document.querySelectorAll('.carousel-image');
-const totalImages = images.length;
+    document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.getElementById('carousel');
+        const imagesContainer = document.getElementById('carouselImages');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const images = document.querySelectorAll('.carousel-image');
 
-document.getElementById('prevBtn').addEventListener('click', showPrevImage);
-document.getElementById('nextBtn').addEventListener('click', showNextImage);
+        let currentIndex = 0;
 
-function showPrevImage() {
-    currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalImages - 1;
-    updateCarousel();
-}
+        function updateCarousel() {
+            const width = carousel.offsetWidth;
+            imagesContainer.style.transform = `translateX(-${currentIndex * width}px)`;
+        }
 
-function showNextImage() {
-    currentIndex = (currentIndex < totalImages - 1) ? currentIndex + 1 : 0;
-    updateCarousel();
-}
+        function showNextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateCarousel();
+        }
 
-function updateCarousel() {
-    const offset = -currentIndex * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-}
+        function showPrevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateCarousel();
+        }
 
+        nextBtn.addEventListener('click', showNextImage);
+        prevBtn.addEventListener('click', showPrevImage);
+
+        window.addEventListener('resize', updateCarousel);
+
+        updateCarousel();
+    });
 </script>
 <?php get_footer(); ?>
