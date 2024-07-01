@@ -11,15 +11,18 @@
     width: 100%;
     overflow: hidden;
 }
+
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease;
 }
+
 .carousel-image {
     width: 100%;
     flex-shrink: 0;
-    height: calc(100vh* 0.8);
+    height: calc(100vh * 0.8);
 }
+
 .carousel-button {
     position: absolute;
     top: 50%;
@@ -27,12 +30,37 @@
     padding: 10px;
     cursor: pointer;
 }
+
 .carousel-button.prev {
     left: 10px;
 }
+
 .carousel-button.next {
     right: 10px;
 }
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicator.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .bg-submit {
     background-image: radial-gradient(circle, #fce098, #c8a950, #c8a950);
 }
@@ -193,7 +221,9 @@ display:none;
                     <div class="absolute left-0 bottom-0 text-white shadow-lg">
                         <p>* הדמיות להמחשה בלבד</p>
                     </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
                 </div>
+
             </div>
 
         </div>
@@ -242,36 +272,64 @@ display:none;
 
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const carousel = document.getElementById('carousel');
-        const imagesContainer = document.getElementById('carouselImages');
-        const prevBtn = document.getElementById('prevBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const images = document.querySelectorAll('.carousel-image');
+document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.getElementById('carousel');
+    const imagesContainer = document.getElementById('carouselImages');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const indicatorsContainer = document.getElementById('carouselIndicators');
+    const images = document.querySelectorAll('.carousel-image');
 
-        let currentIndex = 0;
+    let currentIndex = 0;
 
-        function updateCarousel() {
-            const width = carousel.offsetWidth;
-            imagesContainer.style.transform = `translateX(-${currentIndex * width}px)`;
-        }
+    function updateCarousel() {
+        const width = carousel.offsetWidth;
+        imagesContainer.style.transform = `translateX(-${currentIndex * width}px)`;
+        updateIndicators();
+    }
 
-        function showNextImage() {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateCarousel();
-        }
-
-        function showPrevImage() {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            updateCarousel();
-        }
-
-        nextBtn.addEventListener('click', showNextImage);
-        prevBtn.addEventListener('click', showPrevImage);
-
-        window.addEventListener('resize', updateCarousel);
-
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
         updateCarousel();
+    }
+
+    function showPrevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        updateCarousel();
+    }
+
+    function updateIndicators() {
+        indicatorsContainer.childNodes.forEach((indicator, index) => {
+            if (index === currentIndex) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
+    }
+
+    function goToImage(index) {
+        currentIndex = index;
+        updateCarousel();
+    }
+
+    images.forEach((_, index) => {
+        const indicator = document.createElement('div');
+        indicator.classList.add('carousel-indicator');
+        if (index === currentIndex) {
+            indicator.classList.add('active');
+        }
+        indicator.addEventListener('click', () => goToImage(index));
+        indicatorsContainer.appendChild(indicator);
     });
+
+    nextBtn.addEventListener('click', showNextImage);
+    prevBtn.addEventListener('click', showPrevImage);
+
+    window.addEventListener('resize', updateCarousel);
+
+    updateCarousel();
+});
+
 </script>
 <?php get_footer(); ?>
