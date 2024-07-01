@@ -22,6 +22,11 @@
     flex-shrink: 0;
     height: calc(100vh * 0.8);
 }
+@media (max-width: 1024px) {
+    .carousel-image{
+    height: calc(100vh* 0.5);
+}
+}
 
 .carousel-button {
     position: absolute;
@@ -58,7 +63,7 @@
 }
 
 .carousel-indicator.active {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #72aa80;
 }
 
 .bg-submit {
@@ -107,11 +112,6 @@ border-radius: 0;
 .submit-button::before {
 display: none;
 }
-
-.carousel-image{
-    height: calc(100vh* 0.5);
-}
-
 }
 #contact{
 margin-top: 4px !important;
