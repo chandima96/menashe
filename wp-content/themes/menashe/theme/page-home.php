@@ -42,7 +42,7 @@
 
                 <div class="text-center mx-3 mt-6">
                     <div class="bg-gradient-to-r from-gold from-47% via-gold-m via-6% to-gold to-53% h-20 w-full flex items-center justify-center">
-                        <p class="text-white font-extrabold text-5xl leading-[48px]"><?php echo get_field('gold_box_text'); ?></p>
+                        <p class="text-white font-extrabold text-5xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" alt="">
                     </div>
                     <div class="bg-black text-white h-8 w-full font-bold text-2xl">
