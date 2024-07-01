@@ -100,7 +100,7 @@ display:none;
     <div class="grid grid-cols-1 lg:grid-cols-10 m-3 lg:mt-4 lg:ml-4 lg:mr-4">
         <div class="col-span-3 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col justify-center">
-                <div class="grid gap-2">
+                <div class="grid gap-3">
                     <div class="flex justify-center w-full">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
                     </div>
@@ -108,8 +108,8 @@ display:none;
 
                     <div class="text-center mx-3">
                         <div class="bg-submit h-16 w-full flex items-center justify-center">
-                            <p class="text-white font-extrabold text-4xl md:text-3xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="" alt="">
+                            <p class="text-white font-extrabold text-3xl md:text-4xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto w-20" alt="">
                         </div>
                         <div class="bg-black text-white h-8 w-full font-bold font-heebo md:text-2xl">
                             <?php echo get_field('black_box_text'); ?>
