@@ -123,12 +123,12 @@
                         </div>
                         <div class="gird grid-cols-3 lg:grid-cols-1">
                             <div class="col-span-1">
-                                <button id="submit" type="submit" class="w-full bg-submit h-10 text-black  mt-2">שליחה</button>
+                                <button id="submit" type="submit" class="lg:w-full bg-submit h-10 text-black mt-2">שליחה</button>
                             </div>
                             <div class="col-span-3" dir="rtl">
                                 <div class="flex">
-                                    <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
-                                    <input type="checkbox">
+                                    <div><label class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
+                                    <div><input type="checkbox"></div>
                                 </div>
                             </div>
                         </div>
