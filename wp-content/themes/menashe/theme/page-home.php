@@ -97,15 +97,15 @@ display:none;
 </style>
 
 <div class="mb-[72px] lg:mb-0">
-    <div class="grid grid-cols-1 lg:grid-cols-3 m-3 lg:mt-6 lg:ml-6 lg:mr-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 m-3 lg:mt-4 lg:ml-4 lg:mr-4">
         <div class="col-span-1 order-2 lg:order-1 pr-0 lg:pr-7">
             <div class="flex flex-col  justify-center">
                 <div class="flex justify-center w-full">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-28 flex justify-center" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
                 </div>
                 <h1 class="text-center font-bold text-4xl md:text-5xl font-heebo"><?php echo get_field('home_title'); ?></h1>
 
-                <div class="text-center mx-3 mt-6">
+                <div class="text-center mx-3 mt-4">
                     <div class="bg-submit h-20 w-full flex items-center justify-center">
                         <p class="text-white font-extrabold text-4xl md:text-5xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="" alt="">
@@ -162,7 +162,7 @@ display:none;
 
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 bg-[#276658]">
-            <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
+            <div class="col-span-1 pb-3 pr-3 pl-3 lg:pb-4 lg:pr-4 lg:pl-4 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white font-bold text-2xl font-heebo "><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
