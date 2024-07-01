@@ -94,6 +94,7 @@ color:white;
     accent-color: #276658; /* For modern browsers */
     border-color: white;
     border-style: solid;
+    background-color: #276658;
 }
 
 #email{
