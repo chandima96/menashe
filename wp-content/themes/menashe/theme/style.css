@@ -1302,6 +1302,14 @@ body {
   top: 1rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .order-1 {
   order: 1;
 }

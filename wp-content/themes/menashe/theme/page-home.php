@@ -92,8 +92,8 @@
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
                         </svg>
                     </button>
-                    <div class="absolute bottom-4 right-4 bg-white rounded-lg shadow-lg">
-                        test
+                    <div class="absolute bottom-0 right-0 bg-white rounded-lg shadow-lg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" alt="">
                     </div>
                 </div>
             </div>
