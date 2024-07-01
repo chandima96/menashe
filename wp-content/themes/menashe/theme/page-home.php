@@ -184,7 +184,7 @@ display:none;
     <div class="grid grid-cols-1 lg:grid-cols-10 bg-[#276658]">
             <div class="col-span-3 pb-3 pr-3 pl-3 lg:pb-4 lg:pr-4 lg:pl-4 lg:pt-3">
                 <div class="w-full grid gap-2 Heebo">
-                    <h2 class="w-full text-center text-white  font-bold text-2xl Heebo  "><?php echo get_field('contact_title'); ?></h2>
+                    <h2 class="w-full text-center text-white  font-bold text-2xl Heebo mt-2 lg:mt-0"><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
                         <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div>
