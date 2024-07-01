@@ -109,8 +109,8 @@
             <div class="col-span-1 p-3 lg:pb-6 lg:pr-6 lg:pl-6 lg:pt-3">
                 <div class="w-full  p-3 grid gap-2 font-heebo">
                     <h2 class="w-full text-center text-white"><?php echo get_field('contact_title'); ?></h2>
-                    <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
-                        <!-- <div class="grid grid-cols-2 gap-2">
+                    <!-- <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?> -->
+                        <div class="grid grid-cols-2 gap-2">
                             <div>
                                 <input type="phone" class="w-full h-10 placeholder-black p-3" dir="rtl" placeholder="טלפון">
                             </div>
@@ -121,13 +121,17 @@
                         <div>
                             <input type="email" class="w-full h-10 placeholder-black p-3 mt-2" dir="rtl" placeholder="אימייל">
                         </div>
-                        <div>
-                            <button id="submit" type="submit" class="w-full bg-submit h-10 text-black  mt-2">שליחה</button>
+                        <div class="gird grid-cols-3 lg:grid-cols-1">
+                            <div class="col-span-1">
+                                <button id="submit" type="submit" class="w-full bg-submit h-10 text-black  mt-2">שליחה</button>
+                            </div>
+                            <div class="col-span-3" dir="rtl">
+                                <div class="flex">
+                                    <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
+                                    <input type="checkbox">
+                                </div>
+                            </div>
                         </div>
-                        <div dir="rtl">
-                            <input type="checkbox">
-                            <label for="vehicle1"  class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label>
-                        </div> -->
                     <div class="text-center font-heebo">
                         <p class="text-white"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
