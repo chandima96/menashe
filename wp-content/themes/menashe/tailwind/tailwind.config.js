@@ -22,6 +22,9 @@ module.exports = {
 				'heebo': ['"Heebo", sans-serif'],
 				'karantina': ['"Karantina", system-ui'],
 			},
+			height: {
+				'80vh': 'calc(100vh * 0.8)',
+			},
 		},
 	},
 	corePlugins: {

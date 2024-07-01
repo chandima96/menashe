@@ -78,9 +78,9 @@
             <div class="lg:absolute lg:inset-0 w-full h-full">
                 <div class="carousel-container" id="carousel">
                     <div class="carousel-images" id="carouselImages">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 2" class="carousel-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 3" class="carousel-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 1" class="carousel-image 80vh object-cover">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 2" class="carousel-image 80vh object-cover">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/Untitled-2.jpg" alt="Image 3" class="carousel-image 80vh object-cover">
                     </div>
                     <button class="carousel-button prev" id="prevBtn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-chevron-left text-white" viewBox="0 0 16 16">
