@@ -86,6 +86,16 @@ margin-top: 4px !important;
 #checkbox-524{
 color:white;
 }
+
+#checkbox-524 input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    accent-color: teal; /* For modern browsers */
+    border-color: white;
+    border-style: solid;
+    background-color: #276658;
+}
+
 #email{
 margin-top: 8px;
 }
