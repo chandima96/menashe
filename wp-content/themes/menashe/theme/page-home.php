@@ -118,28 +118,28 @@ label{
                     <div class="flex justify-center w-full">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
                     </div>
-                    <h1 class="text-center font-bold text-black text-4xl md:text-4xl font-heebo"><?php echo get_field('home_title'); ?></h1>
+                    <h1 class="text-center font-bold text-black text-4xl md:text-4xl Heebo"><?php echo get_field('home_title'); ?></h1>
 
                     <div class="text-center mx-3">
                         <div class="bg-submit h-16 w-full flex items-center justify-center">
-                            <p class="text-white font-extrabold text-3xl md:text-4xl leading-[48px] font-heebo"><?php echo get_field('gold_box_text'); ?></p>
+                            <p class="text-white font-extrabold text-3xl md:text-4xl leading-[48px] Heebo"><?php echo get_field('gold_box_text'); ?></p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto w-20" alt="">
                         </div>
-                        <div class="bg-black text-white h-8 w-full font-bold font-heebo md:text-2xl">
+                        <div class="bg-black text-white h-8 w-full font-bold Heebo md:text-2xl">
                             <?php echo get_field('black_box_text'); ?>
                         </div>
                     </div>
                     <div class="text-[#c8a950] w-full text-center flex justify-center">
-                        <p class="font-medium text-2xl md:text-3xl mt-auto font-heebo"><?php echo get_field('gold_text_one'); ?></p>
-                        <p class="font-bold text-4xl md:text-5xl font-heebo"><?php echo get_field('gold_text_two'); ?> </p>
-                        <p class="text-3xl font-medium my-auto font-heebo"><?php echo get_field('gold_text_three'); ?></p>
+                        <p class="font-medium text-2xl md:text-3xl mt-auto Heebo"><?php echo get_field('gold_text_one'); ?></p>
+                        <p class="font-bold text-4xl md:text-5xl Heebo"><?php echo get_field('gold_text_two'); ?> </p>
+                        <p class="text-3xl font-medium my-auto Heebo"><?php echo get_field('gold_text_three'); ?></p>
                     </div>
-                    <div class="text-[#276658] w-full font-bold text-2xl text-center font-heebo">
+                    <div class="text-[#276658] w-full font-bold text-2xl text-center Heebo">
                     <?php echo get_field('green_text'); ?>
                     </div>
                 </div>
 
-                <div class="text-black w-full text-center text-lg font-heebo mt-3">
+                <div class="text-black w-full text-center text-lg Heebo mt-3">
                 <span><?php echo get_field('paragraph'); ?></span>
                 </div>
 
@@ -180,8 +180,8 @@ label{
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-10 bg-[#276658]">
             <div class="col-span-3 pb-3 pr-3 pl-3 lg:pb-4 lg:pr-4 lg:pl-4 lg:pt-3">
-                <div class="w-full grid gap-2 font-heebo">
-                    <h2 class="w-full text-center text-white  font-bold text-2xl font-heebo  "><?php echo get_field('contact_title'); ?></h2>
+                <div class="w-full grid gap-2 Heebo">
+                    <h2 class="w-full text-center text-white  font-bold text-2xl Heebo  "><?php echo get_field('contact_title'); ?></h2>
                     <?php echo do_shortcode('[contact-form-7 id="fa77f20" title="Contact form"]'); ?>
                         <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div>
@@ -205,7 +205,7 @@ label{
                                 </div>
                             </div>
                         </div> -->
-                    <div class="text-center font-heebo">
+                    <div class="text-center Heebo">
                         <p class="text-white mb-2"><?php echo get_field('bottom_paragaph'); ?></p>
                         <p class="text-white"><?php echo get_field('bottom_paragaph_two'); ?></p>
                     </div>

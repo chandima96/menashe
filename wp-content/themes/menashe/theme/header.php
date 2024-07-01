@@ -23,6 +23,12 @@
 <?php wp_body_open(); ?>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+.Heebo {
+  font-family: "Heebo", sans-serif;
+}
 .Karantina {
   font-family: 'Karantina', cursive;
 }
