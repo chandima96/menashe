@@ -45,7 +45,7 @@
     justify-content: center;
     height: 2.5rem; /* 10 in 4 units (default unit size) */
     width: 8rem; /* 32 in 4 units (default unit size) */
-    width: 100%; /* 100% width for large screens */
+    width: 130px; /* 100% width for large screens */
     border-radius: 9999px; /* full rounded corners */
     background-color: var(--color-submit);
     color: #000000; /* black */
@@ -75,6 +75,10 @@
         width: 100%;
         border-radius: 0;
     }
+    .submit-button::before {
+        display: none;
+    }
+
 }
 
     </style>
