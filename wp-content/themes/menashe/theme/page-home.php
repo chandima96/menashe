@@ -18,6 +18,7 @@
         .carousel-image {
             width: 100%;
             flex-shrink: 0;
+            height: calc(100vh* 0.8);
         }
         .carousel-button {
             position: absolute;
