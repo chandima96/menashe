@@ -136,7 +136,7 @@
                             </div>
                             <div class="">
                                 <div class="flex">
-                                    <div><label class="text-white">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
+                                    <div><label class="text-white text-right">אני מעוניין/ת לקבל מידע שיווקי והצעות (ללא התחייבות) במייל/וואט</label></div>
                                     <div><input type="checkbox"></div>
                                 </div>
                             </div>

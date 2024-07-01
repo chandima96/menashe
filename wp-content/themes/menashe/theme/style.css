@@ -1539,6 +1539,10 @@ body {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-heebo {
   font-family: "Heebo", sans-serif;
 }
