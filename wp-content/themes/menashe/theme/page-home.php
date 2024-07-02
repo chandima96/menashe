@@ -155,6 +155,7 @@ display:none;
         font-size: 28px !important;
     }
 }
+
 </style>
 
 <div class="mb-[72px] lg:mb-0">
