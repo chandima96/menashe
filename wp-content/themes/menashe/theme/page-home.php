@@ -166,7 +166,7 @@ display:none;
             <div class="flex flex-col justify-center">
                 <div class="grid gap-3">
                     <div class="flex justify-center w-full">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 flex justify-center" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 2xl:w-36 xl:w-28 flex justify-center" alt="">
                     </div>
                     <h1 class="text-center font-bold text-black text-4xl md:text-4xl Heebo"><?php echo get_field('home_title'); ?></h1>
 
