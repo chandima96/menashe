@@ -181,12 +181,12 @@ display:none;
                     </div>
                     <div class="text-[#c8a950] w-full text-center flex lg:flex-row flex-col justify-center">
                         <div class="flex order-2 lg:order-1 justify-center">
-                            <p class="font-black text-2xl md:text-3xl mt-auto Assistant"><?php echo get_field('gold_text_one'); ?></p>
+                            <p class="font-medium text-2xl md:text-3xl mt-auto Assistant"><?php echo get_field('gold_text_one'); ?></p>
                             <p class="font-bold text-4xl md:text-5xl "><?php echo get_field('gold_text_two'); ?> </p>
                         </div>
                         <p class="text-3xl font-medium my-auto Heebo order-1 lg:order-2 Rubik"><?php echo get_field('gold_text_three'); ?></p>
                     </div>
-                    <div class="text-[#276658] w-full font-extrabold-bold text-2xl text-center Heebo">
+                    <div class="text-[#276658] w-full font-black text-2xl text-center Heebo">
                     <?php echo get_field('green_text'); ?>
                     </div>
                 </div>
