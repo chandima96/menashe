@@ -109,9 +109,9 @@ left: 0.5rem; /* Adjust icon position */
 width: 100%;
 border-radius: 0;
 }
-.submit-button::before {
+/* .submit-button::before {
 display: none;
-}
+} */
 }
 #contact{
 margin-top: 4px !important;
