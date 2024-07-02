@@ -1821,6 +1821,10 @@ body {
   .lg\:text-\[3\.25\] {
     color: 3.25;
   }
+
+  .lg\:text-\[2\.25\] {
+    color: 2.25;
+  }
 }
 
 @media (min-width: 1280px) {
