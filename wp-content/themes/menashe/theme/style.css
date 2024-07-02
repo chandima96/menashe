@@ -1813,6 +1813,14 @@ body {
   .lg\:text-\[\] {
     color: ;
   }
+
+  .lg\:text-\[3\.75\] {
+    color: 3.75;
+  }
+
+  .lg\:text-\[3\.25\] {
+    color: 3.25;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1856,5 +1864,9 @@ body {
   .\32xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .\32xl\:text-\[2\.75rem\] {
+    font-size: 2.75rem;
   }
 }
