@@ -125,7 +125,7 @@ color:white;
     border-style: solid;
     background-color: #276658;
 }
-.checkmark {
+/* .checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,7 +134,7 @@ color:white;
   border-color: white;
   border-style: solid;
   background-color: #276658;;
-}
+} */
 #email{
 margin-top: 8px;
 }
