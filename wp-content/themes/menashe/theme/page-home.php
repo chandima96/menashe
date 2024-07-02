@@ -173,7 +173,7 @@ display:none;
                     <div class="text-center mx-3">
                         <div class="bg-submit h-16 w-full flex items-center justify-center">
                             <p class="text-white font-extrabold lg:text-[29px] xl:text-3xl 2xl:text-[2.75rem] leading-10 Heebo"><?php echo get_field('gold_box_text'); ?></p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto w-20 2xl:w-24" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto lg:w-16 xl:w-20 2xl:w-24" alt="">
                         </div>
                         <div class="bg-black text-white lg:h-8 h-6 w-full font-bold Heebo lg:text-2xl">
                             <?php echo get_field('black_box_text'); ?>
