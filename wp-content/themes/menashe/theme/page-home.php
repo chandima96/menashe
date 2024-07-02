@@ -91,7 +91,7 @@ position: relative;
 padding-left: 2rem; /* Adjust to provide space for the icon */
 }
 
-.submit-button::before {
+#submit .submit-button::before {
 content: '';
 display: inline-block;
 width: 24px;
@@ -190,7 +190,7 @@ display:none;
                     <?php echo get_field('green_text'); ?>
                     </div>
                 </div>
-                
+
 
                 <div class="text-black w-full text-center text-lg Heebo mt-3">
                 <span><?php echo get_field('paragraph'); ?></span>
