@@ -168,7 +168,7 @@ display:none;
                     <div class="flex justify-center w-full">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 2xl:w-44 xl:w-32 flex justify-center" alt="">
                     </div>
-                    <h1 class="text-white font-bold text-3xl leading-10 lg:text-4xl lg:leading-12 xl:text-4xl xl:leading-12 2xl:text-4xl 2xl:leading-12 Heebo"><?php echo get_field('home_title'); ?></h1>
+                    <h1 class="text-center font-bold text-black text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl Heebo"><?php echo get_field('home_title'); ?></h1>
 
                     <div class="text-center mx-3">
                         <div class="bg-submit h-16 w-full flex items-center justify-center">
