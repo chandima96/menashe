@@ -1783,6 +1783,11 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1793,6 +1798,11 @@ body {
   .xl\:w-32 {
     width: 8rem;
   }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -1802,5 +1812,10 @@ body {
 
   .\32xl\:w-44 {
     width: 11rem;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
