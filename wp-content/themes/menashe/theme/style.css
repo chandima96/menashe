@@ -1601,6 +1601,10 @@ body {
   line-height: 48px;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
 .text-\[\#276658\] {
   --tw-text-opacity: 1;
   color: rgb(39 102 88 / var(--tw-text-opacity));
@@ -1785,10 +1789,18 @@ body {
   .xl\:w-28 {
     width: 7rem;
   }
+
+  .xl\:w-32 {
+    width: 8rem;
+  }
 }
 
 @media (min-width: 1536px) {
   .\32xl\:w-36 {
     width: 9rem;
+  }
+
+  .\32xl\:w-44 {
+    width: 11rem;
   }
 }

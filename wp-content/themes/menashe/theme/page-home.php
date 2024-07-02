@@ -166,13 +166,13 @@ display:none;
             <div class="flex flex-col justify-center">
                 <div class="grid gap-3">
                     <div class="flex justify-center w-full">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 2xl:w-36 xl:w-28 flex justify-center" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-auto w-24 2xl:w-44 xl:w-32 flex justify-center" alt="">
                     </div>
                     <h1 class="text-center font-bold text-black text-4xl md:text-4xl Heebo"><?php echo get_field('home_title'); ?></h1>
 
                     <div class="text-center mx-3">
                         <div class="bg-submit h-16 w-full flex items-center justify-center">
-                            <p class="text-white font-extrabold text-3xl md:text-4xl leading-[48px] Heebo"><?php echo get_field('gold_box_text'); ?></p>
+                            <p class="text-white font-extrabold text-3xl md:text-4xl leading-10 Heebo"><?php echo get_field('gold_box_text'); ?></p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/1585.png" class="h-auto w-20" alt="">
                         </div>
                         <div class="bg-black text-white lg:h-8 h-6 w-full font-bold Heebo lg:text-2xl">
