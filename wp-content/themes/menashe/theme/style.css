@@ -1404,10 +1404,6 @@ body {
   height: 100%;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -1585,8 +1581,8 @@ body {
   line-height: 1.75rem;
 }
 
-.text-\[2\.875rem\] {
-  font-size: 2.875rem;
+.font-black {
+  font-weight: 900;
 }
 
 .font-bold {
@@ -1599,14 +1595,6 @@ body {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
-.leading-\[48px\] {
-  line-height: 48px;
 }
 
 .leading-10 {
@@ -1631,14 +1619,6 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[2\.\] {
-  color: 2.;
 }
 
 .placeholder-black::-moz-placeholder {
@@ -1755,12 +1735,12 @@ body {
     height: 2rem;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:w-16 {
     width: 4rem;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:grid-cols-10 {
@@ -1804,20 +1784,6 @@ body {
     line-height: 2rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-\[35px\] {
-    font-size: 35px;
-  }
-
   .lg\:text-\[2\.25rem\] {
     font-size: 2.25rem;
   }
@@ -1825,69 +1791,35 @@ body {
   .lg\:text-\[29px\] {
     font-size: 29px;
   }
-
-  .lg\:text-\[\] {
-    color: ;
-  }
-
-  .lg\:text-\[3\.75\] {
-    color: 3.75;
-  }
-
-  .lg\:text-\[3\.25\] {
-    color: 3.25;
-  }
-
-  .lg\:text-\[2\.25\] {
-    color: 2.25;
-  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-28 {
-    width: 7rem;
+  .xl\:w-20 {
+    width: 5rem;
   }
 
   .xl\:w-32 {
     width: 8rem;
   }
 
-  .xl\:w-20 {
-    width: 5rem;
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:w-36 {
-    width: 9rem;
-  }
-
-  .\32xl\:w-44 {
-    width: 11rem;
-  }
-
   .\32xl\:w-24 {
     width: 6rem;
   }
 
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .\32xl\:w-44 {
+    width: 11rem;
   }
 
   .\32xl\:text-\[2\.75rem\] {
