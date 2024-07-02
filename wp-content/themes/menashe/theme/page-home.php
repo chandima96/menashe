@@ -190,6 +190,7 @@ display:none;
                     <?php echo get_field('green_text'); ?>
                     </div>
                 </div>
+                
 
                 <div class="text-black w-full text-center text-lg Heebo mt-3">
                 <span><?php echo get_field('paragraph'); ?></span>
