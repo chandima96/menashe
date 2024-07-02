@@ -1810,6 +1810,10 @@ body {
     font-size: 35px;
   }
 
+  .lg\:text-\[2\.25rem\] {
+    font-size: 2.25rem;
+  }
+
   .lg\:text-\[\] {
     color: ;
   }
@@ -1872,5 +1876,9 @@ body {
 
   .\32xl\:text-\[2\.75rem\] {
     font-size: 2.75rem;
+  }
+
+  .\32xl\:text-\[3\.25rem\] {
+    font-size: 3.25rem;
   }
 }
