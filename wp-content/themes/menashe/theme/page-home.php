@@ -155,7 +155,11 @@ display:none;
         font-size: 28px !important;
     }
 }
-
+@media (min-width: 1535px) and (max-width: 1790px) {
+    .media-query {
+        font-size: 40px !important;
+    }
+}
 </style>
 
 <div class="mb-[72px] lg:mb-0">
