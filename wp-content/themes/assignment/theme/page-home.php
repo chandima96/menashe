@@ -26,9 +26,6 @@ get_header();
 
 
   <div class="bg-[#3D3D3D]" id="aboutus">
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/About.jpg" alt="">
-    </div>
     <div class="max-w-7xl mx-auto py-28  font-inter">
       <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">ABOUT US</h2>
       <p class="text-lg sm:text-xl md:text-2xl text-[#F5F5F5] font-normal pt-7 px-8 sm:px-8 md:px-8 lg:px-0  ">
