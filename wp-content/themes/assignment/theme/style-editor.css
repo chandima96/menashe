@@ -982,6 +982,10 @@ body {
   max-width: 64rem;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .grow {
   flex-grow: 1;
 }
