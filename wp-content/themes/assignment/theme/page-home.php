@@ -103,7 +103,7 @@ get_header();
 
 <div class="max-w-7xl mx-auto py-28  font-inter px-8 sm:px-8 md:px-8 lg:px-0" id="partners">
   <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">OUR PARTNERS</h2>
-  <div class="caro-container">
+  <div class="caro-container mt-8">
           <div class="carousel">
             <div class="carousel__track">
                 <div class="carousel__slide px-5"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 1"></div>
