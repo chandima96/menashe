@@ -125,7 +125,7 @@ get_header();
 <div class="bg-[#3D3D3D]" id="team">
   <div class="max-w-7xl mx-auto py-28  font-inter px-8 sm:px-8 md:px-8 lg:px-0">
     <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">MEET THE TEAM</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 pt-7 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-7 gap-8">
       <div class="bg-[#D9D9D9] p-5 border rounded-3xl flex flex-col items-center text-center">
         <img src="<?php echo get_template_directory_uri(); ?>/img/Female Team Member.png" class="w-40" alt="">
         <h4 class="text-lg font-bold text-[#3D3D3D]">Team Member Name</h4>
