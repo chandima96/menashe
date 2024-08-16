@@ -103,23 +103,23 @@ get_header();
 
 <div class="max-w-7xl mx-auto py-28  font-inter px-8 sm:px-8 md:px-8 lg:px-0">
   <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">OUR PARTNERS</h2>
-  <div class="grid grid-cols-1 md:grid-cols-3 pt-7 gap-8">
-    <div class="bg-[#D9D9D9] p-5 border rounded-3xl flex flex-col items-center text-center">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" class="w-40" alt="">
-      <h4 class="text-lg font-bold text-[#3D3D3D]">Partners</h4>
+  <div class="caro-container">
+          <div class="carousel">
+            <div class="carousel__track">
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 5"></div>
+                <!-- Repeat logos to create the infinite effect -->
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 3"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 4"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 5"></div>
+            </div>
+        </div>
     </div>
-    
-
-    <div class="bg-[#D9D9D9] p-5 border rounded-3xl flex flex-col items-center text-center">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" class="w-40" alt="">
-      <h4 class="text-lg font-bold text-[#3D3D3D]">Partners</h4>
-    </div>
-
-    <div class="bg-[#D9D9D9] p-5 border rounded-3xl flex flex-col items-center text-center">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" class="w-40" alt="">
-      <h4 class="text-lg font-bold text-[#3D3D3D]">Partners</h4>
-    </div>
-  </div>
 </div>
 
 <div class="bg-[#3D3D3D]">
