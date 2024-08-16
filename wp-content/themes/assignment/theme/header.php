@@ -38,13 +38,12 @@
       </a>
 
       <nav class="hidden lg:flex items-center space-x-6">
-          <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (is_front_page() && empty(parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT))) ? 'active' : ''; ?>">HOME</a>
-          <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'aboutus') ? 'active' : ''; ?>">ABOUT</a>
-          <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'services') ? 'active' : ''; ?>">SERVICES</a>
-          <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'partners') ? 'active' : ''; ?>">PARTNERS</a>
-          <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'team') ? 'active' : ''; ?>">TEAM</a>
+        <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
+        <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
+        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
+        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
+        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
       </nav>
-
 
       <a href="#contactus"
         class="hidden lg:inline-flex items-center px-5 py-2 hover:bg-[#B8CB22] border border-gray-800 text-gray-800 text-lg shadow-md font-semibold rounded-full hover:text-white transition duration-300">
