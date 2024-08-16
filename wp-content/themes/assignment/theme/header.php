@@ -38,11 +38,11 @@
       </a>
 
       <nav class="hidden lg:flex items-center space-x-6">
-        <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/') ? 'active' : ''; ?>">HOME</a>
-        <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#aboutus') ? 'active' : ''; ?>">ABOUT</a>
-        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#services') ? 'active' : ''; ?>">SERVICES</a>
-        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#partners') ? 'active' : ''; ?>">PARTNERS</a>
-        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#team') ? 'active' : ''; ?>">TEAM</a>
+          <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (is_front_page() && empty(parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT))) ? 'active' : ''; ?>">HOME</a>
+          <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'aboutus') ? 'active' : ''; ?>">ABOUT</a>
+          <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'services') ? 'active' : ''; ?>">SERVICES</a>
+          <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'partners') ? 'active' : ''; ?>">PARTNERS</a>
+          <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo (parse_url($_SERVER['REQUEST_URI'], PHP_URL_FRAGMENT) == 'team') ? 'active' : ''; ?>">TEAM</a>
       </nav>
 
 
