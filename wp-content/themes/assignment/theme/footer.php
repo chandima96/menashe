@@ -69,9 +69,6 @@
     </div>
   </div>
 
-  <div>
-    
-  </div>
 </footer>
   <script>
     document.getElementById('mobile-menu-button').addEventListener('click', function () {
