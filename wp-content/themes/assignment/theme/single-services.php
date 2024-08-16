@@ -30,7 +30,7 @@ $service_description = get_field('service_description');
   <div class="bg-[#3D3D3D]" id="aboutus">
     <div class="max-w-7xl mx-auto py-16 font-inter">
       <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center"><?php echo $service_heading; ?></h2>
-      <div class="text-xl sm:text-2xl md:text-3xl text-[#F5F5F5] font-normal pt-7 px-8 sm:px-8 md:px-8 lg:px-0 space-y-2"><?php echo $service_description; ?></div>
+      <div class="text-lg sm:text-xl md:text-2xl text-[#F5F5F5] font-normal pt-7 px-8 sm:px-8 md:px-8 lg:px-0 space-y-2"><?php echo $service_description; ?></div>
     </div>
   </div>
 
