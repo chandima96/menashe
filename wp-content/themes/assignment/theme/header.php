@@ -38,11 +38,11 @@
       </a>
 
       <nav class="hidden lg:flex items-center space-x-6">
-        <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
-        <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
-        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
-        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
-        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
+          <a href="<?php bloginfo('url'); ?>/" id="home" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
+          <a href="#aboutus" id="aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
+          <a href="#services" id="services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
+          <a href="#partners" id="partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
+          <a href="#team" id="team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
       </nav>
 
       <a href="#contactus"
