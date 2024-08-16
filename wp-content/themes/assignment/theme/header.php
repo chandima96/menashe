@@ -30,44 +30,45 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<header class="bg-white shadow-md font-montserrat sticky top-0 z-50">
-  <div class="container mx-auto max-w-7xl flex items-center justify-between p-4">
-    <a href="#" class="flex items-center space-x-2">
-      <img class="h-auto w-[150px]" src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo">
-    </a>
+  <header class="bg-white shadow-md font-montserrat sticky top-0 z-50">
+    <div class="container mx-auto max-w-7xl flex items-center justify-between p-4">
 
-    <nav class="hidden lg:flex items-center space-x-6">
-      <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
-      <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
-      <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
-      <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
-      <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
+      <a href="#" class="flex items-center space-x-2">
+        <img class="h-auto w-[150px]" src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo">
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-6">
+        <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
+        <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
+        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
+        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
+        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
+      </nav>
+
+      <a href="#contactus"
+        class="hidden lg:inline-flex items-center px-5 py-2 hover:bg-[#B8CB22] border border-gray-800 text-gray-800 text-lg shadow-md font-semibold rounded-full hover:text-white transition duration-300">
+        CONTACT US
+      </a>
+
+      <div class="lg:hidden">
+        <button id="mobile-menu-button" class="text-gray-700 hover:text-zinc-700 focus:outline-none">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="lg:hidden hidden bg-white py-2 shadow-md">
+      <div class="space-y-1 px-2">
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">HOME</a>
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">PAGES</a>
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">OPPORTUNITIES</a>
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">SERVICES</a>
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">ABOUT</a>
+        <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">CONTACT US</a>
+      </div>
     </nav>
-
-    <a href="#contactus"
-      class="hidden lg:inline-flex items-center px-5 py-2 hover:bg-[#B8CB22] border border-gray-800 text-gray-800 text-lg shadow-md font-semibold rounded-full hover:text-white transition duration-300">
-      CONTACT US
-    </a>
-
-    <div class="lg:hidden">
-      <button id="menu-icon" class="text-gray-700 hover:text-zinc-700 focus:outline-none">
-        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <nav class="navlist hidden lg:hidden bg-white py-2 shadow-md">
-    <div class="space-y-1 px-2">
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">HOME</a>
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">PAGES</a>
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">OPPORTUNITIES</a>
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">SERVICES</a>
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">ABOUT</a>
-      <a href="#" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100">CONTACT US</a>
-    </div>
-  </nav>
-</header>
+  </header>
 
 
