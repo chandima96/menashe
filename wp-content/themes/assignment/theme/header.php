@@ -39,26 +39,10 @@
 
       <nav class="hidden lg:flex items-center space-x-6">
         <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
-        <div class="relative group">
-          <a href="#"
-            class="text-gray-800 flex text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PAGES
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-chevron-down mt-2 ml-2" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-            </svg>
-          </a>
-          <div
-            class="invisible absolute left-0 mt-1 z-50 flex flex-col bg-white py-2 shadow-lg group-hover:visible min-w-max">
-            <a href="#" class="px-4 py-2 text-gray-800 hover:bg-gray-100">Subpage 1</a>
-            <a href="#" class="px-4 py-2 text-gray-800 hover:bg-gray-100">Subpage 2</a>
-          </div>
-        </div>
-        <a href="#"
-          class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">OPPORTUNITIES</a>
-        <a href="#services"
-          class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
         <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
+        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
+        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
+        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
       </nav>
 
       <a href="#contactus"
