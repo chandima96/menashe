@@ -65,46 +65,31 @@ get_header();
     </div>
   </div>
 
-<div class="bg-[#3D3D3D]" id="contactus">
-  <div class="max-w-7xl mx-auto py-28 font-inter">
+  <div class="bg-[#3D3D3D]" id="contactus">
+  <div class="max-w-7xl mx-auto py-28 font-inter px-8 sm:px-8 md:px-8 lg:px-0">
     <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">CONTACT US</h2>
-    <!-- <form class="px-8">
-      <div class="mb-4">
-        <label class="block text-[#B8CB22] text-sm font-medium mb-2" for="name">Name</label>
-        <input 
-          type="text" 
-          id="name" 
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#B8CB22]" 
-          placeholder="Your Name">
-      </div>
-  
-      <div class="mb-4">
-        <label class="block text-[#B8CB22] text-sm font-medium mb-2" for="email">Email</label>
-        <input 
-          type="email" 
-          id="email" 
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#B8CB22]" 
-          placeholder="Your Email">
-      </div>
-  
-      <div class="mb-4">
-        <label class="block text-[#B8CB22] text-sm font-medium mb-2" for="message">Message</label>
-        <textarea 
-          id="message" 
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#B8CB22]" 
-          rows="4" 
-          placeholder="Your Message"></textarea>
-      </div>
-  
-      <div class="text-center">
-        <button 
-          type="submit" 
-          class="bg-[#B8CB22] text-white px-4 py-2 rounded-md hover:bg-[#A4B61D] focus:outline-none focus:ring-2 focus:ring-[#8AA017]">
-          Submit
-        </button>
-      </div>
-    </form> -->
-    <?php echo do_shortcode('[contact-form-7 id="44abc4f" title="Contact form"]'); ?>
+    <div class="form-container">
+      <!-- <form action="#" method="POST">
+        <div>
+          <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+      </form> -->
+      <?php echo do_shortcode('[contact-form-7 id="44abc4f" title="Contact form"]'); ?>
+    </div>              
 
   </div>
 </div>
