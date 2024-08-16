@@ -24,17 +24,21 @@ get_header();
     </div>
 </section>
 
+
   <div class="bg-[#3D3D3D]" id="aboutus">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/About.jpg" alt="">
+    </div>
     <div class="max-w-7xl mx-auto py-28  font-inter">
       <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">ABOUT US</h2>
-      <p class="text-xl sm:text-2xl md:text-3xl text-[#F5F5F5] font-normal pt-7 px-8 sm:px-8 md:px-8 lg:px-0  ">
+      <p class="text-lg sm:text-xl md:text-2xl text-[#F5F5F5] font-normal pt-7 px-8 sm:px-8 md:px-8 lg:px-0  ">
         Iconiq Capital (Pvt) Ltd, a subsidiary of Iconiq One Holdings (Pvt) Ltd, offers a diverse range of services to 
         meet the needs of companies that require financial expertise for wealth creation. Our team consists of skilled professionals 
         with varied backgrounds and expertise, united by a shared dedication to providing personalized service and expert guidance. 
         Whether you seek development sales and marketing consultants, traditional brokerage services, or aid with special asset disposition, 
         we aim to deliver a customized, results-driven approach to help clients optimize their investment returns.
       </p>
-      <p class="text-xl sm:text-2xl md:text-3xl text-[#F5F5F5] font-normal mt-2 px-8 sm:px-8 md:px-8 lg:px-0">
+      <p class="text-lg sm:text-xl md:text-2xl text-[#F5F5F5] font-normal mt-2 px-8 sm:px-8 md:px-8 lg:px-0">
         At Iconiq Capital, we understand that each client is unique and deserves a tailored approach to financial success. 
         Our team of specialists is dedicated to providing top-notch services that cater to your specific needs. Whether you 
         are looking to grow your wealth, enhance your marketing strategies, or navigate complex financial decisions, we are 
