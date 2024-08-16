@@ -69,17 +69,17 @@ box-shadow: 0 0 0 2px #B8CB22; /* Example alternative focus style */
     border: 2px solid transparent;
     border-radius: 8px;
     background-color: transparent;
-    margin: auto; /* Center the carousel */
+    margin: auto; 
 }
 
 .carousel__track {
     display: flex;
-    width: calc(200%); /* To make sure we have a continuous loop */
+    width: calc(200%); 
     animation: scroll 20s linear infinite;
 }
 
 .carousel__slide {
-    flex: 0 0 20%; /* Ensure that 5 slides fit perfectly in the track */
+    flex: 0 0 20%; 
     display: flex;
     justify-content: center;
     align-items: center;

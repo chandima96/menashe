@@ -106,17 +106,17 @@ get_header();
   <div class="caro-container">
           <div class="carousel">
             <div class="carousel__track">
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 1"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 2"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 5"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 5"></div>
                 <!-- Repeat logos to create the infinite effect -->
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 1"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 2"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 3"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 4"></div>
-                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Partners.png" alt="Logo 5"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 3"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 4"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Iconiq_Capital_Logo.png" alt="Logo 5"></div>
             </div>
         </div>
     </div>
