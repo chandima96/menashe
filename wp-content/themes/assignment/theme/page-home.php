@@ -45,7 +45,7 @@ get_header();
 
   <div class="max-w-7xl mx-auto py-28  font-inter px-8 sm:px-8 md:px-8 lg:px-0" id="services">
     <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">OUR SERVICES</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 pt-7 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-7 gap-8">
     <?php $the_query = new WP_Query( array('post_type' =>'services','posts_per_page' => '100',  'post__not_in'   => array( $id),) );?>
 							     <?php if ( have_posts())   : while ( $the_query->have_posts() ) : $the_query->the_post();?>
 
