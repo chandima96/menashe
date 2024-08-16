@@ -75,17 +75,7 @@
       const menu = document.getElementById('mobile-menu');
       menu.classList.toggle('hidden');
     });
-
-    document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('nav a');
-    const currentHash = window.location.hash;
-
-    links.forEach(link => {
-        if (link.hash === currentHash) {
-            link.classList.add('active');
-        }
-    });
-});
+    
   </script>
 
   

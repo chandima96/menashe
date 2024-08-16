@@ -38,12 +38,13 @@
       </a>
 
       <nav class="hidden lg:flex items-center space-x-6">
-          <a href="<?php bloginfo('url'); ?>/" id="home" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">HOME</a>
-          <a href="#aboutus" id="aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">ABOUT</a>
-          <a href="#services" id="services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">SERVICES</a>
-          <a href="#partners" id="partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">PARTNERS</a>
-          <a href="#team" id="team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300">TEAM</a>
+        <a href="<?php bloginfo('url'); ?>/" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/') ? 'active' : ''; ?>">HOME</a>
+        <a href="#aboutus" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#aboutus') ? 'active' : ''; ?>">ABOUT</a>
+        <a href="#services" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#services') ? 'active' : ''; ?>">SERVICES</a>
+        <a href="#partners" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#partners') ? 'active' : ''; ?>">PARTNERS</a>
+        <a href="#team" class="text-gray-800 text-lg font-semibold hover:text-[#B8CB22] transition duration-300 <?php echo ($_SERVER['REQUEST_URI'] == '/#team') ? 'active' : ''; ?>">TEAM</a>
       </nav>
+
 
       <a href="#contactus"
         class="hidden lg:inline-flex items-center px-5 py-2 hover:bg-[#B8CB22] border border-gray-800 text-gray-800 text-lg shadow-md font-semibold rounded-full hover:text-white transition duration-300">
