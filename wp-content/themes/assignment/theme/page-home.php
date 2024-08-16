@@ -200,7 +200,7 @@ get_header();
   </div>
 </div>
 
-<div class="max-w-7xl mx-auto py-28 font-inter">
+<div class="max-w-7xl mx-auto py-28">
   <h1 class="text-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-center">Join our team at</h1>
   <h1 class="text-[#B8CB22] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-center ">Iconiq One Realty</h1>
 
