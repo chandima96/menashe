@@ -159,6 +159,8 @@ get_header();
     </p>
 </div>
 
+
+
 <div class="bg-[#3D3D3D]" id="contactus">
   <div class="max-w-7xl mx-auto py-28 font-inter px-8 sm:px-8 md:px-8 lg:px-0">
     <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#B8CB22] text-center">CONTACT US</h2>
